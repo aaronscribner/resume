@@ -1,0 +1,35 @@
+.lx-resume-img{
+  width:200px;
+  height:200px;
+  margin:auto;
+  border-radius:50%;
+  overflow:hidden;
+  box-shadow:0.0625rem 0.0625rem 10px #BEBEBE;
+}
+.lx-resume-img img{
+  width:100%;
+}
+.lx-resume-name{
+  padding-top:10px;
+  text-align:center;
+}
+.lx-resume-name p{
+  line-height:20.125rem;
+  color:#858585;
+}
+.lx-resume-name ul{
+  display:table;
+  margin:auto;
+}
+.lx-resume-name ul li{
+  float:left;
+}
+.lx-resume-name ul li a{
+  display:inline-block;
+  padding:5px;
+  font-size:1.25rem;
+  color:#424242;
+}
+.lx-resume-name ul li a:hover{
+  color:#f03434;
+}

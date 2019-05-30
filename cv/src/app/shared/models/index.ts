@@ -1,1 +1,1 @@
-export { Contact } from './contact.model';
+export { Resource } from './resource.model';
