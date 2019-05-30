@@ -1,0 +1,124 @@
+[{
+  "id": 1,
+  "name": "lfsqlmwk",
+  "title": "aeehgzwj",
+  "about": "emlangsp",
+  "contactInfo": {
+    "email": "bjoomzuz",
+    "phone": "csbgrwef",
+    "location": "lcfbeuos"
+  },
+  "experience": [
+    {
+      "companyName": "IFS Companies",
+      "title": "Angular Engineer",
+      "startDate": "Feb 2019",
+      "endDate": "May 2019",
+      "duties": [
+        {
+          "details": "Responsible for Angular architecture",
+          "details": "Set the technical direction for feature implementation",
+          "details": "Mentored junior developers to follow best practices",
+          "details": "Created Angular framework and patterns to increase the team efficiency",
+          "details": "Led team to successful milestone for application demo at annual company conference",
+          "details": "Collaborated with the UX designer to determine efficient paths forward when designing the UI",
+          "details": "Collaborated with the other data and REST architect for designing application features",
+          "details": "Create Nuget packages in .NET Core to support API development",
+          "details": "Participated in Domain-Driven Design discussions"
+        }
+      ],
+      "technologies": [
+        {
+          "details": "Angular 7",
+          "details": "Jasmine",
+          "details": ".NET Core",
+          "details": "Web API",
+          "details": "Graph DB",
+          "details": "Document SQL",
+          "details": "MSSQL",
+          "details": "Azure Cloud"
+        }
+      ]
+    },
+    {
+      "companyName": "Charles Schwab",
+      "title": "Senior Engineer Consultant",
+      "startDate": "Oct 2018",
+      "endDate": "Feb 2019",
+      "duties": [
+        {
+          "details": "Communicated closely with the product owner to match the technical direction with that of the business",
+          "details": "Was the technical lead for the the Angular and .NET Core solutions",
+          "details": "Mentored other developers",
+          "details": "Designed and implemented complex, multi-level data-grid display for stock trade information",
+          "details": "Created the technical acceptance criteria for stories"
+        }
+      ],
+      "technologies": [
+        {
+          "details": "Angular 7",
+          "details": ".NET Core",
+          "details": "Web API",
+          "details": "Document DB",
+          "details": "NGRX"
+        }
+      ]
+    },
+    {
+      "companyName": "GenLife Limited",
+      "title": "Software Architect",
+      "startDate": "Oct 2018",
+      "endDate": "Feb 2019",
+      "duties": [
+        {
+          "details": "Architected and led decisions for developing an AI-based insurance system",
+          "details": "Implemented applications with Docker support for deployment to AWS",
+          "details": "Worked closely with DevOps for consistent patterns with respect to our solution architecture for continuous integration and deployment",
+          "details": "Implemented the full vertical stack to meet business needs",
+          "details": "Integrated solutions with AWS cloud services"
+        }
+      ],
+      "technologies": [
+        {
+          "details": "Angular 7",
+          "details": ".NET Core",
+          "details": "Web API",
+          "details": "Document DB",
+          "details": "Postgres SQL",
+          "details": "Mobx",
+          "details": "Amazon Web Services"
+        }
+      ]
+    },
+    {
+      "companyName": "Caliber Home Loans",
+      "title": "Software Engineer Consultant",
+      "startDate": "Jan 2017",
+      "endDate": "Aug 2017",
+      "duties": [
+        {
+          "details": "Key team member in major modernization effort across the entire architecture for the platform with a focus on the client-side technology",
+          "details": "Responsible for implementing complex business logic in the front-end that is not handled server-side",
+          "details": "Redesigned the UX per the business requirements with an immutable API layer",
+          "details": "Wrote unit tests to cover the expected functionality and also speed up the development process",
+          "details": "Integrated with a Mock API for UI development stability",
+          "details": "Create the HTML/CSS per provided mockups",
+          "details": "Participated in approving pull requests"
+        }
+      ],
+      "technologies": [
+        {
+          "details": "Angular 2",
+          "details": ".NET Core",
+          "details": "Web API",
+          "details": "NGRX"
+        }
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "detail": "rrdgxhph"
+    }
+  ]
+}]

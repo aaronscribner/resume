@@ -1,4 +1,5 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Detail } from '../../shared/models/resume/detail.model';
 
 @Component({
   selector: 'app-skills',
@@ -6,6 +7,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   styleUrls: ['./skills.component.scss'],
 })
 export class SkillsComponent implements OnInit {
+  @Input() skills: Detail[];
 
   constructor() { }
 
