@@ -49,13 +49,13 @@ Here is the content of this css file
 }
 .lx-loader div h1{
   font-family:'Open Sans Condensed';
-  font-size:40px;
+  font-size:2.5rem;
   font-weight:700;
-  margin-bottom:10px;
+  margin-bottom:0.625rem;
 }
 .lx-loader div p{
-  font-size:12px;
-  margin-top:10px;
+  font-size:0.75rem;
+  margin-top:0.625rem;
 }
 
 /* Header */
@@ -65,23 +65,23 @@ Here is the content of this css file
   top:0px;
   left:0px;
   display:flex;
-  width:44px;
+  width:2.75rem;
   height:100%;
   background:#121212;
-  box-shadow:0px 0px 5px #BEBEBE;
+  box-shadow:0px 0px 0.3125rem #BEBEBE;
 }
 
 /* Header Logo */
 .lx-header-logo{
   position:absolute;
-  top:10px;
-  left:10px;
+  top:0.625rem;
+  left:0.625rem;
 }
 .lx-header-logo h2 a{
   display:block;
-  padding:0px 20px;
+  padding:0px 1.25rem;
   font-family:'Open Sans Condensed';
-  font-size:30px;
+  font-size:1.875rem;
   font-weight:700;
   background:#f03434;
   color:#FFFFFF;
@@ -93,19 +93,19 @@ Here is the content of this css file
 }
 .lx-main-menu ul li{
   clear:both;
-  margin:5px;
+  margin:0.3125rem;
   white-space:nowrap;
 }
 .lx-main-menu ul li a{
   display:inline-block;
-  padding:8px 5px;
+  padding:0.5rem 0.3125rem;
   font-weight:500;
   background:#212121;
   color:#FFFFFF;
-  border-radius:20px;
+  border-radius:1.25rem;
 }
 .lx-main-menu ul li a:hover{
-  padding:8px;
+  padding:0.5rem;
   background:#f03434;
 }
 .lx-main-menu ul li a.active{
@@ -113,13 +113,13 @@ Here is the content of this css file
 }
 .lx-main-menu ul li a i{
   position:relative;
-  top:8px;
+  top:0.5rem;
   display:inline-block;
-  line-height:1px;
+  line-height:0.0625rem;
 }
 .lx-main-menu ul li a ins{
   display:none;
-  padding:0px 10px;
+  padding:0px 0.625rem;
 }
 .lx-main-menu ul li a:hover ins{
   display:inline-block;
@@ -127,23 +127,23 @@ Here is the content of this css file
 
 /* Main */
 .lx-main{
-  padding-left:44px;
+  padding-left:2.75rem;
 }
 .lx-main-content{
   max-width:1220px;
   margin:auto;
-  padding:50px;
+  padding:3.125rem;
 }
 @media(max-width:767px){
   .lx-main-content{
-    padding:50px 20px;
+    padding:3.125rem 1.25rem;
   }
 }
 
 /* Blog Menu */
 .lx-body-menu{
   position:relative;
-  margin-bottom:50px;
+  margin-bottom:3.125rem;
 }
 @media(max-width:1023px){
   .lx-body-menu{
@@ -156,26 +156,26 @@ Here is the content of this css file
     display:table;
     width:240px;
     margin-left:-98px;
-    padding:10px 20px;
+    padding:0.625rem 1.25rem;
     background:#F8F8F8;
-    border-radius:0px 0px 4px 4px;
-    box-shadow:0px 2px 10px #BEBEBE;
+    border-radius:0px 0px 0.25rem 0.25rem;
+    box-shadow:0px 2px 0.625rem #BEBEBE;
     -webkit-transition:all ease 0.3s;
     transition:all ease 0.3s;
   }
 }
 .lx-body-menu > a{
   position:absolute;
-  bottom:-37px;
+  bottom:-2.313rem;
   left:50%;
   display:none;
-  margin-left:-40px;
-  padding:10px 20px;
+  margin-left:-2.5rem;
+  padding:0.625rem 1.25rem;
   font-weight:500;
   background:#F8F8F8;
   color:#424242;
-  border-radius:0px 0px 4px 4px;
-  box-shadow:0px 6px 10px #BEBEBE;
+  border-radius:0px 0px 0.25rem 0.25rem;
+  box-shadow:0px 0.375rem 0.625rem #BEBEBE;
 }
 @media(max-width:1023px){
   .lx-body-menu > a{
@@ -189,13 +189,13 @@ Here is the content of this css file
   .lx-body-menu > ul{
     float:none;
     clear:both;
-    border-radius:0px 0px 4px 4px;
+    border-radius:0px 0px 0.25rem 0.25rem;
   }
 }
 .lx-body-menu > ul > li{
   position:relative;
   float:left;
-  margin-left:30px;
+  margin-left:1.875rem;
 }
 @media(max-width:1023px){
   .lx-body-menu > ul > li{
@@ -207,20 +207,20 @@ Here is the content of this css file
 .lx-body-menu > ul > li > a{
   position:relative;
   display:block;
-  padding-bottom:15px;
+  padding-bottom:0.9375rem;
   font-weight:500;
   text-transform:uppercase;
   color:#424242;
 }
 @media(max-width:1023px){
   .lx-body-menu > ul > li > a{
-    padding:10px 0px;
+    padding:0.625rem 0px;
   }
 }
 .lx-body-menu > ul > li.lx-has-children > a::before{
   float:right;
   display:inline-block;
-  margin-left:10px;
+  margin-left:0.625rem;
   content:'\f0d7';
   font-family:'FontAwesome';
   color:#424242;
@@ -230,8 +230,8 @@ Here is the content of this css file
   left:0px;
   bottom:0px;
   content:'';
-  width:10px;
-  height:3px;
+  width:0.625rem;
+  height:0.1875rem;
   background:#F8F8F8;
   -webkit-transition:all ease 0.3s;
   transition:all ease 0.3s;
@@ -254,7 +254,7 @@ Here is the content of this css file
   z-index:6;
   display:none;
   background:#FFFFFF;
-  box-shadow:0px 2px 10px #BEBEBE;
+  box-shadow:0px 2px 0.625rem #BEBEBE;
   white-space:nowrap;
 }
 @media(max-width:1023px){
@@ -265,7 +265,7 @@ Here is the content of this css file
     box-shadow:0px 0px 0px #BEBEBE;
   }
 }
-@media(min-width:1024px){
+@media(min-width:1020.25rem){
   .lx-body-menu > ul > li:hover .lx-body-submenu{
     display:block;
   }
@@ -273,11 +273,11 @@ Here is the content of this css file
 .lx-body-submenu > ul > li > a{
   position:relative;
   display:block;
-  padding:10px 20px;
+  padding:0.625rem 1.25rem;
   font-weight:500;
   background:#FDFDFD;
   color:#424242;
-  border-bottom:1px solid #F8F8F8;
+  border-bottom:0.0625rem solid #F8F8F8;
 }
 @media(max-width:1023px){
   .lx-body-submenu > ul > li > a{
@@ -289,7 +289,7 @@ Here is the content of this css file
 .lx-body-submenu > ul > li > a:hover{
   background:#f03434;
   color:#FFFFFF;
-  border-bottom:1px solid #f03434;
+  border-bottom:0.0625rem solid #f03434;
 }
 @media(max-width:1023px){
   .lx-body-submenu > ul > li > a:hover{
@@ -304,17 +304,17 @@ Here is the content of this css file
   margin:auto;
   border-radius:50%;
   overflow:hidden;
-  box-shadow:1px 1px 10px #BEBEBE;
+  box-shadow:0.0625rem 1px 0.625rem #BEBEBE;
 }
 .lx-resume-img img{
   width:100%;
 }
 .lx-resume-name{
-  padding-top:10px;
+  padding-top:0.625rem;
   text-align:center;
 }
 .lx-resume-name p{
-  line-height:22px;
+  line-height:1.375rem;
   color:#858585;
 }
 .lx-resume-name ul{
@@ -326,50 +326,50 @@ Here is the content of this css file
 }
 .lx-resume-name ul li a{
   display:inline-block;
-  padding:5px;
-  font-size:20px;
+  padding:0.3125rem;
+  font-size:1.25rem;
   color:#424242;
 }
 .lx-resume-name ul li a:hover{
   color:#f03434;
 }
 .lx-resume-bloc{
-  margin-top:50px;
+  margin-top:3.125rem;
 }
 .lx-resume-bloc h3{
-  margin-bottom:20px;
-  font-size:20px;
+  margin-bottom:1.25rem;
+  font-size:1.25rem;
   text-transform:uppercase;
-  border-bottom:1px solid #EEEEEE;
+  border-bottom:0.0625rem solid #EEEEEE;
 }
 .lx-demo-title h3{
-  margin:5px 0px 15px;
-  font-size:18px;
+  margin:0.3125rem 0px 15px;
+  font-size:1.125rem;
   text-transform:uppercase;
-  border-bottom:1px solid #EEEEEE;
+  border-bottom:0.0625rem solid #EEEEEE;
 }
 .lx-resume-bloc p{
-  padding:5px 0px;
+  padding:0.3125rem 0px;
   color:#424242;
 }
 .lx-resume-bloc p i{
   position:relative;
-  top:3px;
-  font-size:18px;
-  line-height:1px;
+  top:0.1875rem;
+  font-size:1.125rem;
+  line-height:0.0625rem;
   color:#858585;
 }
 .lx-resume-skills span{
   display:inline-block;
-  margin:5px;
+  margin:0.3125rem;
   margin-left:0px;
-  padding:5px 10px;
+  padding:0.3125rem 0.625rem;
   font-family:'Muli';
-  font-size:13px;
+  font-size:0.8125rem;
   font-weight:600;
   background:#242424;
   color:#FFFFFF;
-  border-radius:4px;
+  border-radius:0.25rem;
 }
 .lx-resume-skills span:hover{
   background:#f03434;
@@ -377,17 +377,17 @@ Here is the content of this css file
 .lx-resume-language p ins{
   float:right;
   display:inline-block;
-  width:15px;
-  height:15px;
-  margin-left:10px;
+  width:0.9375rem;
+  height:0.9375rem;
+  margin-left:0.625rem;
   background:#f03434;
-  border-radius:2px;
+  border-radius:0.125rem;
 }
-@media(max-width:1024px){
+@media(max-width:1020.25rem){
   .lx-resume-language p ins{
-    width:10px;
-    height:15px;
-    margin-left:5px;
+    width:0.625rem;
+    height:0.9375rem;
+    margin-left:0.3125rem;
   }
 }
 .lx-resume-language p ins.lx-op{
@@ -395,31 +395,31 @@ Here is the content of this css file
 }
 .lx-resume-about p{
   padding:0px;
-  font-size:16px;
-  line-height:24px;
-  word-spacing:5px;
+  font-size:1rem;
+  line-height:1.5rem;
+  word-spacing:0.3125rem;
 }
 .lx-resume-experience ul li{
-  margin-bottom:15px;
+  margin-bottom:0.9375rem;
 }
 .lx-resume-experience ul li:last-child{
   margin-bottom:0px;
 }
 .lx-resume-experience ul li h4{
   position:relative;
-  margin-bottom:10px;
-  padding-left:20px;
+  margin-bottom:0.625rem;
+  padding-left:1.25rem;
   font-family:'Muli';
-  font-size:16px;
+  font-size:1rem;
   text-transform:uppercase;
 }
 .lx-resume-experience ul li h4::before{
   content:"";
   position:absolute;
-  top:3px;
+  top:0.1875rem;
   left:0px;
-  width:10px;
-  height:10px;
+  width:0.625rem;
+  height:0.625rem;
   background:#f03434;
   border-radius:50%;
 }
@@ -432,7 +432,7 @@ Here is the content of this css file
   .lx-resume-experience ul li h4 ins{
     float:none;
     clear:both;
-    font-size:12px;
+    font-size:0.75rem;
   }
 }
 .lx-resume-experience ul li span{
@@ -440,37 +440,37 @@ Here is the content of this css file
   font-family:'Muli';
 }
 .lx-resume-experience ul li p{
-  font-size:16px;
-  line-height:24px;
-  word-spacing:5px;
+  font-size:1rem;
+  line-height:1.5rem;
+  word-spacing:0.3125rem;
 }
 
 /* Blog Item */
 .lx-blog-title h3{
-  margin-bottom:30px;
-  font-size:22px;
-  border-bottom:1px solid #EEEEEE;
+  margin-bottom:1.875rem;
+  font-size:1.375rem;
+  border-bottom:0.0625rem solid #EEEEEE;
   text-transform:uppercase;
 }
 .lx-blog-item{
-  margin-bottom:30px;
+  margin-bottom:1.875rem;
 }
 .grid-item .lx-blog-item{
   margin-bottom:0px;
 }
 .lx-blog-item-img{
   position:relative;
-  margin-bottom:10px;
-  border-radius:6px;
+  margin-bottom:0.625rem;
+  border-radius:0.375rem;
   overflow:hidden;
-  box-shadow:0px 2px 5px #BEBEBE;
+  box-shadow:0px 2px 0.3125rem #BEBEBE;
   -webkit-transition:all ease 0.3s;
   transition:all ease 0.3s;
 }
 .lx-blog-left .lx-blog-item-img{
   float:left;
   width:300px;
-  margin-right:20px;
+  margin-right:1.25rem;
   margin-bottom:0px;
 }
 @media(max-width:768px){
@@ -479,11 +479,11 @@ Here is the content of this css file
     clear:both;
     width:100%;
     margin-right:0px;
-    margin-bottom:10px;
+    margin-bottom:0.625rem;
   }
 }
 .lx-blog-item:hover .lx-blog-item-img{
-  box-shadow:0px 2px 10px #BEBEBE;
+  box-shadow:0px 2px 0.625rem #BEBEBE;
 }
 .lx-blog-item-img img{
   display:block;
@@ -493,7 +493,7 @@ Here is the content of this css file
   position:absolute;
   bottom:0px;
   display:block;
-  padding:15px;
+  padding:0.9375rem;
   width:100%;
   text-align:left;
   background:linear-gradient(to top,rgba(0,0,0,0.7) 50%,rgba(0,0,0,0));
@@ -501,16 +501,16 @@ Here is the content of this css file
 }
 .lx-blog-item-img ins{
   position:absolute;
-  bottom:15px;
-  right:15px;
+  bottom:0.9375rem;
+  right:0.9375rem;
   display:inline-block;
-  padding:3px 5px;
+  padding:0.1875rem 0.3125rem;
   background:#f03434;
   color:#FFFFFF;
-  border-radius:2px;
+  border-radius:0.125rem;
 }
 .lx-blog-item-text h2{
-  margin-bottom:10px;
+  margin-bottom:0.625rem;
 }
 .lx-blog-item-text h2 a{
   font-family:'Bitter';
@@ -520,20 +520,20 @@ Here is the content of this css file
   color:#f03434;
 }
 .lx-blog-item-text p{
-  line-height:22px;
+  line-height:1.375rem;
   color:#858585;
 }
 .lx-blog-item-text > a{
   float:right;
   display:inline-block;
-  margin-top:10px;
-  padding-bottom:5px;
+  margin-top:0.625rem;
+  padding-bottom:0.3125rem;
   font-family:'Muli';
-  font-size:12px;
+  font-size:0.75rem;
   font-weight:700;
   text-transform:uppercase;
   color:#424242;
-  border-bottom:2px solid #f03434;
+  border-bottom:0.125rem solid #f03434;
 }
 @media(max-width:768px){
   .lx-blog-item-text > a{
@@ -545,7 +545,7 @@ Here is the content of this css file
 /* News Pagination */
 .lx-blog-pagination-desktop{
   display:block;
-  padding-top:20px;
+  padding-top:1.25rem;
 }
 @media(max-width:768px){
   .lx-blog-pagination-desktop{
@@ -557,23 +557,23 @@ Here is the content of this css file
 }
 .lx-blog-pagination-desktop ul li a{
   display:inline-block;
-  min-width:32px;
-  margin-right:3px;
-  padding:5px 10px;
-  font-size:14px;
+  min-width:2rem;
+  margin-right:0.1875rem;
+  padding:0.3125rem 0.625rem;
+  font-size:0.875rem;
   text-align:center;
   color:#424242;
-  border:1px solid #EEEEEE;
-  border-radius:2px;
+  border:0.0625rem solid #EEEEEE;
+  border-radius:0.125rem;
 }
 .lx-blog-pagination-desktop ul li a.active{
   background:#f03434;
   color:#FFFFFF;
-  border:1px solid #f03434;
+  border:0.0625rem solid #f03434;
 }
 .lx-blog-pagination-mobile{
   display:none;
-  padding-top:20px;
+  padding-top:1.25rem;
   text-align:center;
 }
 @media(max-width:768px){
@@ -583,44 +583,44 @@ Here is the content of this css file
 }
 .lx-blog-pagination-mobile a{
   display:inline-block;
-  margin-left:3px;
-  padding:5px 10px;
-  font-size:14px;
+  margin-left:0.1875rem;
+  padding:0.3125rem 0.625rem;
+  font-size:0.875rem;
   color:#424242;
-  border:1px solid #EEEEEE;
+  border:0.0625rem solid #EEEEEE;
 }
 
 /* Single Post */
 .lx-single-post-content{
-  padding-bottom:10px;
-  font-size:17px;
-  line-height:26px;
-  word-spacing:5px;
-  letter-spacing:1px;
+  padding-bottom:0.625rem;
+  font-size:1.0625rem;
+  line-height:1.625rem;
+  word-spacing:0.3125rem;
+  letter-spacing:0.0625rem;
 }
 .lx-single-post-content p{
-  margin-bottom:20px;
+  margin-bottom:1.25rem;
 }
 .lx-single-post-content p:last-child{
   margin-bottom:0px;
 }
 .lx-single-post-content p span.lx-firstletter{
   float:left;
-  margin:16px 5px 5px -3px;
+  margin:1rem 0.3125rem 0.3125rem -3px;
   position:relative;
   font-size:60px;
 }
 .lx-single-post-content h1{
-  margin-bottom:20px;
+  margin-bottom:1.25rem;
   font-family:'Bitter';
-  font-size:30px;
+  font-size:1.875rem;
   font-weight:500;
-  line-height:36px;
+  line-height:2.25rem;
 }
 .lx-single-post-content h2{
-  margin-bottom:20px;
+  margin-bottom:1.25rem;
   font-family:'Bitter';
-  font-size:26px;
+  font-size:1.625rem;
 }
 .lx-404 h2{
   font-size:160px;
@@ -633,24 +633,24 @@ Here is the content of this css file
   }
 }
 .lx-single-post-content h3{
-  margin-bottom:20px;
+  margin-bottom:1.25rem;
   font-family:'Bitter';
-  font-size:24px;
+  font-size:1.5rem;
 }
 .lx-single-post-content h4{
-  margin-bottom:20px;
+  margin-bottom:1.25rem;
   font-family:'Bitter';
-  font-size:22px;
+  font-size:1.375rem;
 }
 .lx-single-post-content h5{
-  margin-bottom:20px;
+  margin-bottom:1.25rem;
   font-family:'Bitter';
-  font-size:20px;
+  font-size:1.25rem;
 }
 .lx-single-post-content h6{
-  margin-bottom:20px;
+  margin-bottom:1.25rem;
   font-family:'Bitter';
-  font-size:18px;
+  font-size:1.125rem;
 }
 .lx-single-post-content h1:last-child,
 .lx-single-post-content h2:last-child,
@@ -664,19 +664,19 @@ Here is the content of this css file
   list-style:initial;
 }
 .lx-single-post-content ul{
-  margin-left:40px;
-  margin-bottom:20px;
+  margin-left:2.5rem;
+  margin-bottom:1.25rem;
 }
 @media(max-width:767px){
   .lx-single-post-content ul{
-    margin-left:20px;
+    margin-left:1.25rem;
   }
 }
 .lx-single-post-content ul:last-child{
   margin-bottom:0px;
 }
 .lx-single-post-content ul li{
-  margin-bottom:10px;
+  margin-bottom:0.625rem;
 }
 .lx-single-post-content ul li:last-child{
   margin-bottom:0px;
@@ -685,19 +685,19 @@ Here is the content of this css file
   list-style:decimal;
 }
 .lx-single-post-content ol{
-  margin-left:40px;
-  margin-bottom:20px;
+  margin-left:2.5rem;
+  margin-bottom:1.25rem;
 }
 @media(max-width:767px){
   .lx-single-post-content ol{
-    margin-left:20px;
+    margin-left:1.25rem;
   }
 }
 .lx-single-post-content ol:last-child{
   margin-bottom:0px;
 }
 .lx-single-post-content ol li{
-  margin-bottom:10px;
+  margin-bottom:0.625rem;
 }
 .lx-single-post-content ol li:last-child{
   margin-bottom:0px;
@@ -705,12 +705,12 @@ Here is the content of this css file
 .lx-single-post-content blockquote{
   float:right;
   width:280px;
-  margin-bottom:20px;
-  margin-left:20px;
-  padding:30px 20px;
+  margin-bottom:1.25rem;
+  margin-left:1.25rem;
+  padding:1.875rem 1.25rem;
   background:#F5F5F5;
-  border-left:3px solid #f03434;
-  border-radius:4px;
+  border-left:0.1875rem solid #f03434;
+  border-radius:0.25rem;
 }
 @media(max-width:767px){
   .lx-single-post-content blockquote{
@@ -723,19 +723,19 @@ Here is the content of this css file
 }
 .lx-single-post-content blockquote p{
   font-family:'Bitter';
-  font-size:20px;
-  line-height:30px;
+  font-size:1.25rem;
+  line-height:1.875rem;
   color:#828282;
 }
 .lx-single-post-content blockquote cite{
   display:block;
-  font-size:12px;
-  line-height:16px;
+  font-size:0.75rem;
+  line-height:1rem;
   text-align:right;
   color:#828282;
 }
 .lx-single-post-content figure{
-  margin-bottom:20px;
+  margin-bottom:1.25rem;
 }
 .lx-single-post-content figure:last-child{
   margin-bottom:0px;
@@ -746,7 +746,7 @@ Here is the content of this css file
 .lx-single-post-content figure.lx-alignright{
   float:right;
   width:320px;
-  margin-left:20px;
+  margin-left:1.25rem;
 }
 @media(max-width:767px){
   .lx-single-post-content figure.lx-alignright{
@@ -759,7 +759,7 @@ Here is the content of this css file
 .lx-single-post-content figure.lx-alignleft{
   float:left;
   width:320px;
-  margin-right:20px;
+  margin-right:1.25rem;
 }
 @media(max-width:767px){
   .lx-single-post-content figure.lx-alignleft{
@@ -775,8 +775,8 @@ Here is the content of this css file
   margin:auto;
 }
 .lx-single-post-content figure figcaption{
-  margin-top:5px;
-  font-size:12px;
+  margin-top:0.3125rem;
+  font-size:0.75rem;
   font-style:italic;
   text-align:center;
   color:#828282;
@@ -788,24 +788,24 @@ Here is the content of this css file
 /* Mini Slide */
 .lx-mini-slide{
   position:relative;
-  margin-bottom:20px;
+  margin-bottom:1.25rem;
   overflow:hidden;
 }
 .lx-large-slide{
   margin-bottom:0px;
   background:#424242;
-  border-radius:6px;
+  border-radius:0.375rem;
 }
 .lx-mini-slide-nav{
   position:absolute;
   z-index:4;
-  right:10px;
-  top:10px;
+  right:0.625rem;
+  top:0.625rem;
 }
 .lx-mini-slide-nav i{
   display:inline-block;
-  padding:1px 10px;
-  font-size:30px;
+  padding:0.0625rem 0.625rem;
+  font-size:1.875rem;
   background:#f03434;
   color:#FFFFFF;
   cursor:pointer;
@@ -859,29 +859,29 @@ Here is the content of this css file
   bottom:0px;
   left:0px;
   width:100%;
-  padding:20px;
+  padding:1.25rem;
   background:#222222;
   -webkit-transition:all ease 0.3s;
   transition:all ease 0.3s;
 }
 .lx-mini-slide-item-text h2{
-  margin-bottom:10px;
-  font-size:26px;
+  margin-bottom:0.625rem;
+  font-size:1.625rem;
   font-weight:300;
-  line-height:30px;
+  line-height:1.875rem;
   color:#F8F8F8;
   -webkit-transition:all ease 0.3s;
   transition:all ease 0.3s;
 }
 .lx-mini-slide-item-text p{
-  font-size:13px;
+  font-size:0.8125rem;
   color:#BEBEBE;
 }
 
 /* Single Post Author */
 .lx-single-post-author{
-  margin-top:30px;
-  margin-bottom:30px;
+  margin-top:1.875rem;
+  margin-bottom:1.875rem;
 }
 @media(max-width:767px){
   .lx-single-post-author{
@@ -889,16 +889,16 @@ Here is the content of this css file
   }
 }
 .lx-single-post-author h3{
-  margin-bottom:20px;
-  font-size:18px;
+  margin-bottom:1.25rem;
+  font-size:1.125rem;
   text-transform:uppercase;
-  border-bottom:1px solid #EEEEEE;
+  border-bottom:0.0625rem solid #EEEEEE;
 }
 .lx-single-post-author-img{
   float:left;
   width:100px;
   height:100px;
-  margin-right:20px;
+  margin-right:1.25rem;
   border-radius:50%;
   overflow:hidden;
 }
@@ -914,14 +914,14 @@ Here is the content of this css file
 }
 .lx-single-post-author > a{
   display:inline-block;
-  margin-bottom:10px;
-  font-size:24px;
+  margin-bottom:0.625rem;
+  font-size:1.5rem;
   color:#f03434;
 }
 .lx-single-post-author p{
   margin-left:120px;
-  font-size:15px;
-  line-height:24px;
+  font-size:0.9375rem;
+  line-height:1.5rem;
 }
 @media(max-width:767px){
   .lx-single-post-author p{
@@ -930,17 +930,17 @@ Here is the content of this css file
 }
 .lx-single-post-author ul{
   margin-left:120px;
-  margin-top:15px;
+  margin-top:0.9375rem;
 }
 @media(max-width:767px){
   .lx-single-post-author ul{
     display:table;
-    margin:15px auto 0px;
+    margin:0.9375rem auto 0px;
   }
 }
 .lx-single-post-author ul li{
   float:left;
-  margin-right:25px;
+  margin-right:1.563rem;
 }
 @media(max-width:767px){
   .lx-single-post-author ul li{
@@ -949,42 +949,42 @@ Here is the content of this css file
 }
 .lx-single-post-author ul li a{
   float:left;
-  font-size:18px;
+  font-size:1.125rem;
   color:#828282;
 }
 
 /* Single Post Share */
 .lx-single-post-share{
-  margin-top:50px;
-  margin-bottom:30px;
+  margin-top:3.125rem;
+  margin-bottom:1.875rem;
 }
 .lx-single-post-share h3{
-  margin-bottom:20px;
-  font-size:18px;
+  margin-bottom:1.25rem;
+  font-size:1.125rem;
   text-transform:uppercase;
-  border-bottom:1px solid #EEEEEE;
+  border-bottom:0.0625rem solid #EEEEEE;
 }
 .lx-single-post-share ul li{
   float:left;
 }
 .lx-single-post-share ul li span{
   display:inline-block;
-  margin-right:30px;
-  font-size:20px;
+  margin-right:1.875rem;
+  font-size:1.25rem;
   font-weight:500;
 }
 .lx-single-post-share ul li a{
   display:inline-block;
-  margin-right:5px;
-  padding:4px 20px;
+  margin-right:0.3125rem;
+  padding:0.25rem 1.25rem;
   font-family:'Muli';
-  font-size:12px;
+  font-size:0.75rem;
   color:#FFFFFF;
-  border-radius:4px;
+  border-radius:0.25rem;
 }
 @media(max-width:1170px){
   .lx-single-post-share ul li a{
-    padding:4px 10px;
+    padding:0.25rem 0.625rem;
   }
 }
 .lx-single-post-share ul li a.lx-facebook{
@@ -1004,7 +1004,7 @@ Here is the content of this css file
 }
 .lx-single-post-share ul li a i{
   display:inline-block;
-  margin-right:5px;
+  margin-right:0.3125rem;
 }
 @media(max-width:767px){
   .lx-single-post-share ul li a i{
@@ -1019,59 +1019,59 @@ Here is the content of this css file
 
 /* Comment */
 .lx-single-post-comment{
-  margin-top:50px;
-  margin-bottom:30px;
+  margin-top:3.125rem;
+  margin-bottom:1.875rem;
 }
 .lx-single-post-comment h3{
-  margin-bottom:20px;
-  font-size:18px;
+  margin-bottom:1.25rem;
+  font-size:1.125rem;
   text-transform:uppercase;
-  border-bottom:1px solid #EEEEEE;
+  border-bottom:0.0625rem solid #EEEEEE;
 }
 .lx-single-post-comment-form p{
-  margin-bottom:20px;
+  margin-bottom:1.25rem;
   font-family:'Muli';
-  font-size:12px;
+  font-size:0.75rem;
   color:#828282;
 }
 .lx-textfield input{
   width:100%;
-  padding:10px 20px;
+  padding:0.625rem 1.25rem;
   font-family:'Muli';
-  border:1px solid #EEEEEE;
-  border-radius:4px;
+  border:0.0625rem solid #EEEEEE;
+  border-radius:0.25rem;
 }
 .lx-textarea textarea{
   display:block;
   width:100%;
   height:120px;
-  padding:10px 20px;
+  padding:0.625rem 1.25rem;
   font-family:'Muli';
-  border:1px solid #EEEEEE;
-  border-radius:4px;
+  border:0.0625rem solid #EEEEEE;
+  border-radius:0.25rem;
   resize:none;
 }
 .lx-submit{
   text-align:center;
 }
 .lx-submit input{
-  padding:10px 50px;
+  padding:0.625rem 50px;
   font-family:'Muli';
-  font-size:16px;
+  font-size:1rem;
   font-weight:700;
   background:#f03434;
   color:#FFFFFF;
-  border-radius:4px;
+  border-radius:0.25rem;
   cursor:pointer;
 }
 
 /* Comment Items */
 .lx-single-post-comment-item{
-  margin-bottom:20px;
+  margin-bottom:1.25rem;
 }
 .lx-single-post-comment-img{
   float:left;
-  margin-right:20px;
+  margin-right:1.25rem;
   width:100px;
   height:100px;
   border-radius:50%;
@@ -1079,7 +1079,7 @@ Here is the content of this css file
 }
 @media(max-width:767px){
   .lx-single-post-comment-img{
-    margin-right:10px;
+    margin-right:0.625rem;
     width:60px;
     height:60px;
   }
@@ -1089,27 +1089,27 @@ Here is the content of this css file
 }
 .lx-single-post-comment-item > a{
   display:inline-block;
-  font-size:20px;
+  font-size:1.25rem;
   color:#f03434;
 }
 .lx-single-post-comment-item > span{
   display:block;
   font-family:'Muli';
-  font-size:13px;
+  font-size:0.8125rem;
   color:#858585;
 }
 .lx-single-post-comment-content{
-  margin:10px 0px 10px 120px;
+  margin:0.625rem 0px 0.625rem 120px;
   font-family:'Muli';
 }
 @media(max-width:767px){
   .lx-single-post-comment-content{
-    margin:10px 0px;
+    margin:0.625rem 0px;
   }
 }
 .lx-single-post-comment-content p{
-  font-size:15px;
-  line-height:22px;
+  font-size:0.9375rem;
+  line-height:1.375rem;
 }
 .lx-single-post-comment-item > ul{
   margin-left:120px;
@@ -1121,27 +1121,27 @@ Here is the content of this css file
 }
 .lx-single-post-comment-item > ul li{
   float:left;
-  margin-right:30px;
+  margin-right:1.875rem;
 }
 .lx-single-post-comment-item > ul li a{
   color:#242424;
-  font-size:15px;
+  font-size:0.9375rem;
   font-weight:500;
 }
 .lx-single-post-comment-item > ul li a i{
   float:left;
-  margin-right:5px;
-  font-size:22px;
-  line-height:18px;
+  margin-right:0.3125rem;
+  font-size:1.375rem;
+  line-height:1.125rem;
 }
 .lx-single-post-comment-item .lx-single-post-comment-item{
-  margin-top:20px;
+  margin-top:1.25rem;
   margin-left:120px;
   margin-bottom:0px;
   padding-bottom:0px;
-  padding-left:20px;
+  padding-left:1.25rem;
   border-bottom:0px;
-  border-left:1px solid #EEEEEE;
+  border-left:0.0625rem solid #EEEEEE;
 }
 @media(max-width:767px){
   .lx-single-post-comment-item .lx-single-post-comment-item{
@@ -1164,9 +1164,9 @@ Here is the content of this css file
 }
 .lx-404-form form input[type='text']{
   width:300px;
-  padding:10px 20px;
-  border:1px solid #EEEEEE;
-  border-radius:20px 0px 0px 20px;
+  padding:0.625rem 1.25rem;
+  border:0.0625rem solid #EEEEEE;
+  border-radius:1.25rem 0px 0px 1.25rem;
 }
 @media(max-width:767px){
   .lx-404-form form input[type='text']{
@@ -1174,17 +1174,17 @@ Here is the content of this css file
   }
 }
 .lx-404-form form input[type='submit']{
-  padding:10px 20px;
+  padding:0.625rem 1.25rem;
   font-weight:500;
   background:#F5F5F5;
-  border:1px solid #EEEEEE;
-  border-radius:0px 20px 20px 0px;
+  border:0.0625rem solid #EEEEEE;
+  border-radius:0px 1.25rem 1.25rem 0px;
   cursor:pointer;
 }
 
 /* Portfolio */
 .lx-portfolio-item{
-  margin-bottom:30px;
+  margin-bottom:1.875rem;
   cursor:zoom-in;
 }
 .grid-item .lx-portfolio-item{
@@ -1195,7 +1195,7 @@ Here is the content of this css file
 }
 .lx-portfolio-item-img{
   position:relative;
-  border-radius:6px;
+  border-radius:0.375rem;
   overflow:hidden;
   -webkit-transition:all ease 0.3s;
   transition:all ease 0.3s;
@@ -1204,7 +1204,7 @@ Here is the content of this css file
   border-radius:0px;
 }
 .lx-portfolio-item:hover .lx-portfolio-item-img{
-  box-shadow:0px 2px 10px #BEBEBE;
+  box-shadow:0px 2px 0.625rem #BEBEBE;
 }
 .lx-portfolio-item-img a{
   cursor:zoom-in;
@@ -1222,7 +1222,7 @@ Here is the content of this css file
   position:absolute;
   bottom:0px;
   display:block;
-  padding:15px;
+  padding:0.9375rem;
   padding-right:100px;
   width:100%;
   text-align:left;
@@ -1231,21 +1231,21 @@ Here is the content of this css file
 }
 .lx-portfolio-item-img ins{
   position:absolute;
-  bottom:15px;
-  right:15px;
+  bottom:0.9375rem;
+  right:0.9375rem;
   display:inline-block;
-  padding:3px 5px;
+  padding:0.1875rem 0.3125rem;
   background:#f03434;
   color:#FFFFFF;
-  border-radius:2px;
+  border-radius:0.125rem;
 }
 
 /* Sidebar */
 .lx-sidebar{
   position:relative;
-  margin-left:30px;
-  padding-left:30px;
-  border-left:1px solid #EEEEEE;
+  margin-left:1.875rem;
+  padding-left:1.875rem;
+  border-left:0.0625rem solid #EEEEEE;
   -webkit-transition:all ease 0.3s;
   transition:all ease 0.3s;
 }
@@ -1257,11 +1257,11 @@ Here is the content of this css file
     right:-300px;
     width:300px;
     height:100%;
-    padding:15px;
+    padding:0.9375rem;
     margin-left:0px;
     background:#FFFFFF;
     border-left:0px;
-    box-shadow:4px 0px 10px #424242;
+    box-shadow:0.25rem 0px 0.625rem #424242;
     overflow:auto;
   }
 }
@@ -1275,8 +1275,8 @@ Here is the content of this css file
 .lx-sidebar > i{
   float:right;
   display:none;
-  margin-bottom:10px;
-  line-height:16px;
+  margin-bottom:0.625rem;
+  line-height:1rem;
   cursor:pointer;
 }
 @media(max-width:1023px){
@@ -1287,13 +1287,13 @@ Here is the content of this css file
 i.lx-add{
   position:fixed;
   z-index:10;
-  top:10px;
-  right:10px;
+  top:0.625rem;
+  right:0.625rem;
   display:none;
-  padding:5px;
+  padding:0.3125rem;
   background:#f03434;
   color:#FFFFFF;
-  border-radius:2px;
+  border-radius:0.125rem;
   cursor:pointer;
 }
 @media(max-width:1023px){
@@ -1302,21 +1302,21 @@ i.lx-add{
   }
 }
 .lx-sidebar-item{
-  margin-bottom:30px;
+  margin-bottom:1.875rem;
 }
 .lx-sidebar-item-title{
-  margin-bottom:20px;
+  margin-bottom:1.25rem;
 }
 .lx-sidebar-item-title h3{
-  margin-bottom:20px;
-  font-size:18px;
+  margin-bottom:1.25rem;
+  font-size:1.125rem;
   text-transform:uppercase;
-  border-bottom:1px solid #EEEEEE;
+  border-bottom:0.0625rem solid #EEEEEE;
 }
 
 /* Latest Posts */
 .lx-latest-posts-item{
-  margin-bottom:20px;
+  margin-bottom:1.25rem;
 }
 .lx-latest-posts-item:last-child{
   margin-bottom:0px;
@@ -1324,7 +1324,7 @@ i.lx-add{
 .lx-latest-posts-item-img{
   float:left;
   width:100px;
-  margin-right:20px;
+  margin-right:1.25rem;
 }
 .lx-latest-posts-item-img img{
   display:block;
@@ -1332,7 +1332,7 @@ i.lx-add{
 }
 .lx-latest-posts-item-text h3 a{
   font-family:'Bitter';
-  font-size:15px;
+  font-size:0.9375rem;
   font-weight:400;
   color:#424242;
 }
@@ -1340,8 +1340,8 @@ i.lx-add{
   color:#f03434;
 }
 .lx-latest-posts-item-text p{
-  margin-top:5px;
-  font-size:12px;
+  margin-top:0.3125rem;
+  font-size:0.75rem;
   color:#8e8e8e;
 }
 
@@ -1357,22 +1357,22 @@ i.lx-add{
 .lx-sidebar-search input[type='text']{
   float:left;
   width:100%;
-  padding:10px 40px 10px 10px;
+  padding:0.625rem 40px 0.625rem 0.625rem;
   font-family:Muli;
-  font-size:14px;
+  font-size:0.875rem;
   font-weight:600;
   background:#F8F8F8;
-  border-radius:6px;
+  border-radius:0.375rem;
 }
 .lx-sidebar-search input[type='submit']{
   position:absolute;
   right:0px;
   bottom:0px;
-  padding:5px;
+  padding:0.3125rem;
   background:#f03434;
   color:#FFFFFF;
-  border:3px solid #F8F8F8;
-  border-radius:6px;
+  border:0.1875rem solid #F8F8F8;
+  border-radius:0.375rem;
   cursor:pointer;
 }
 
@@ -1382,13 +1382,13 @@ i.lx-add{
 }
 .lx-tags ul li a{
   display:inline-block;
-  margin:0px 10px 10px 0px;
-  padding:6px 15px;
+  margin:0px 0.625rem 0.625rem 0px;
+  padding:0.375rem 15px;
   font-family:'Muli';
   font-weight:600;
   background:#424242;
   color:#FFFFFF;
-  border-radius:2px;
+  border-radius:0.125rem;
 }
 .lx-tags ul li a:hover{
   background:#f03434;
@@ -1400,8 +1400,8 @@ i.lx-add{
 }
 .lx-sidebar-social-network ul li a{
   display:inline-block;
-  margin-right:25px;
-  font-size:18px;
+  margin-right:1.563rem;
+  font-size:1.125rem;
   color:#858585;
 }
 .lx-sidebar-social-network ul li a:hover{
@@ -1410,7 +1410,7 @@ i.lx-add{
 
 /* Sidebar Links List */
 .lx-links-list ul li{
-  padding-bottom:10px;
+  padding-bottom:0.625rem;
 }
 .lx-links-list ul li:last-child{
   padding-bottom:0px;
@@ -1421,22 +1421,22 @@ i.lx-add{
 .lx-links-list ul li a span{
   float:right;
   display:inline-block;
-  padding:2px 10px;
-  font-size:12px;
+  padding:0.125rem 0.625rem;
+  font-size:0.75rem;
   background:#F5F5F5;
-  border-radius:10px;
+  border-radius:0.625rem;
 }
 
 /* Sidebar Newsletter */
 .lx-sidebar-newsletter{
-  padding:20px;
+  padding:1.25rem;
   background:#F8F8F8;
-  border:1px solid #EEEEEE;
-  border-radius:4px;
+  border:0.0625rem solid #EEEEEE;
+  border-radius:0.25rem;
 }
 .lx-sidebar-newsletter p{
-  margin-bottom:20px;
-  font-size:15px;
+  margin-bottom:1.25rem;
+  font-size:0.9375rem;
   text-align:center;
   color:#828282;
 }
@@ -1448,26 +1448,26 @@ i.lx-add{
 }
 .lx-sidebar-newsletter form input[type='text']{
   width:100%;
-  padding:10px 60px 10px 45px;
+  padding:0.625rem 60px 0.625rem 45px;
   background:#FFFFFF;
-  border-radius:4px;
+  border-radius:0.25rem;
 }
 .lx-sidebar-newsletter form i{
   position:absolute;
-  top:6px;
-  left:12px;
-  font-size:24px;
+  top:0.375rem;
+  left:0.75rem;
+  font-size:1.5rem;
   color:#828282;
 }
 .lx-sidebar-newsletter form input[type='submit']{
   position:absolute;
-  top:3px;
-  right:3px;
-  padding:3px 13px;
-  font-size:24px;
+  top:0.1875rem;
+  right:0.1875rem;
+  padding:0.1875rem 13px;
+  font-size:1.5rem;
   background:#f03434;
   color:#FFFFFF;
-  border-radius:4px;
+  border-radius:0.25rem;
   cursor:pointer;
 }
 
@@ -1475,24 +1475,24 @@ i.lx-add{
 .lx-footer{
   position:relative;
   z-index:11;
-  padding-left:44px;
+  padding-left:2.75rem;
   background:#F8F8F8;
-  border-top:1px solid #EEEEEE;
+  border-top:0.0625rem solid #EEEEEE;
 }
 .lx-footer-content ul{
   float:left;
-  padding:15px 30px;
+  padding:0.9375rem 30px;
 }
 @media(max-width:767px){
   .lx-footer-content ul{
     float:left;
-    padding:15px;
+    padding:0.9375rem;
     padding-bottom:0px;
   }
 }
 .lx-footer-content ul li{
   float:left;
-  margin-right:20px;
+  margin-right:1.25rem;
 }
 .lx-footer-content ul li a{
   font-weight:500;
@@ -1500,13 +1500,13 @@ i.lx-add{
 }
 .lx-footer-content p{
   float:right;
-  padding:15px 30px;
+  padding:0.9375rem 30px;
   color:#858585;
 }
 @media(max-width:767px){
   .lx-footer-content p{
     float:left;
-    padding:15px;
+    padding:0.9375rem;
   }
 }
 
@@ -1531,11 +1531,11 @@ i.lx-add{
 .lx-popup-inside i.lx-remove{
   display:inline-block;
   position:absolute;
-  top:10px;
-  right:10px;
-  width:40px;
-  padding:5px 0px;
-  font-size:30px;
+  top:0.625rem;
+  right:0.625rem;
+  width:2.5rem;
+  padding:0.3125rem 0px;
+  font-size:1.875rem;
   text-align:center;
   color:#FFFFFF;
   border-radius:50%;
@@ -1544,10 +1544,10 @@ i.lx-add{
   display:inline-block;
   position:absolute;
   top:45%;
-  left:10px;
-  width:40px;
-  padding:5px 0px;
-  font-size:40px;
+  left:0.625rem;
+  width:2.5rem;
+  padding:0.3125rem 0px;
+  font-size:2.5rem;
   text-align:center;
   color:#FFFFFF;
   border-radius:50%;
@@ -1556,10 +1556,10 @@ i.lx-add{
   display:inline-block;
   position:absolute;
   top:45%;
-  right:10px;
-  width:40px;
-  padding:5px 0px;
-  font-size:40px;
+  right:0.625rem;
+  width:2.5rem;
+  padding:0.3125rem 0px;
+  font-size:2.5rem;
   text-align:center;
   color:#FFFFFF;
   border-radius:50%;
@@ -1570,7 +1570,7 @@ i.lx-add{
 }
 @media(max-width:768px){
   .lx-popup-content{
-    padding:0px 10px;
+    padding:0px 0.625rem;
   }
 }
 .lx-popup-image{
@@ -1597,6 +1597,6 @@ i.lx-add{
 }
 .lx-popup-details ul li span{
   display:inline-block;
-  margin-top:5px;
+  margin-top:0.3125rem;
   color:#FFFFFF;
 }
