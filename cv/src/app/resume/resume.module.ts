@@ -10,6 +10,8 @@ import { SkillsComponent } from './skills/skills.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { EducationComponent } from './education/education.component';
 import { CertificationsComponent } from './certifications/certifications.component';
+import { SharedModule } from '../shared/shared.module';
+import { ResumeService } from '../core/http-services/resume-service/resume.service';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,11 @@ import { CertificationsComponent } from './certifications/certifications.compone
   ],
   imports: [
     CommonModule,
+    SharedModule,
     ResumeRoutingModule
+  ],
+  providers: [
+    ResumeService
   ]
 })
 export class ResumeModule {

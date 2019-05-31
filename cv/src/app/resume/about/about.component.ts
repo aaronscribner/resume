@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component, Input, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'app-resume-about',
@@ -6,11 +6,8 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   styleUrls: ['./about.component.scss'],
   encapsulation: ViewEncapsulation.None
 })
-export class AboutComponent implements OnInit {
+export class AboutComponent {
+  @Input() about: string;
 
   constructor() { }
-
-  ngOnInit() {
-  }
-
 }

@@ -2,26 +2,12 @@
   <h3>Work Experiences</h3>
   <div class="lx-resume-experience">
     <ul>
-      <li>
-        <h4>Mid-level designer at Envato Market</h4>
-        <span>June 2016 - Up to now</span>
-        <p>Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies
-          purus, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue
-          mollis. Phasellus congue lacus eget neque.</p>
-      </li>
-      <li>
-        <h4>Web designer & Developer at Google </h4>
-        <span>February 2015 - Mai 2016</span>
-        <p>Purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate
-          arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue
-          lacus eget neque. Phasellus ornare.</p>
-      </li>
-      <li>
-        <h4>Front-end designer at Pixel Touch</h4>
-        <span>Mai 2013 - January 2015</span>
-        <p>Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies
-          purus, sed posuere libero dui id orci. Etiam sit amet lectus quis est congue mollis. Phasellus congue
-          lacus eget neque. </p>
+      <li *ngFor="let experience of experiences">
+        <h4>{{experience.companyName}}</h4>
+        <span>{{experience.startDate}} - {{experience.endDate}}</span>
+        <p *ngFor="let duty of experience.duties">
+          - {{duty.description}}.
+        </p>
       </li>
     </ul>
   </div>

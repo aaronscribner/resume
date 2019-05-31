@@ -2,12 +2,12 @@
   <img src="../../../assets/images/avatar.png"/>
 </div>
 <div class="lx-resume-name">
-  <h1>Aaron Scribner</h1>
-  <p>Code Artist</p>
+  <h1>{{resume.name}}</h1>
+  <p>{{resume.title}}</p>
   <ul>
-    <li><a href="https://www.facebook.com/meesterover" target="_blank"><i class="fa fa-facebook"></i></a></li>
-    <li><a href="https://twitter.com/scribner_aaron" target="_blank"><i class="fa fa-twitter"></i></a></li>
-    <li><a href="https://www.linkedin.com/in/aaron-s-96b438a4/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+    <li *ngIf="resume.facebookUrl"><a href="{{resume.facebookUrl}}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+    <li *ngIf="resume.twitterUrl"><a href="{{resume.twitterUrl}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+    <li *ngIf="resume.linkedInUrl"><a href="{{resume.linkedInUrl}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
   </ul>
   <div class="lx-clear-fix"></div>
 </div>

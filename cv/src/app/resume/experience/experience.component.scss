@@ -1,46 +1,54 @@
-.lx-resume-experience ul li{
-  margin-bottom:0.9375rem;
-}
-.lx-resume-experience ul li:last-child{
-  margin-bottom:0px;
-}
-.lx-resume-experience ul li h4{
-  position:relative;
-  margin-bottom:0.625rem;
-  padding-left:1.25rem;
-  font-family:'Muli';
-  font-size:1rem;
-  text-transform:uppercase;
-}
-.lx-resume-experience ul li h4::before{
-  content:"";
-  position:absolute;
-  top:0.1875rem;
-  left:0px;
-  width:0.625rem;
-  height:0.625rem;
-  background:#f03434;
-  border-radius:50%;
-}
-.lx-resume-experience ul li h4 ins{
-  float:right;
-  font-weight:300;
-  color:#f03434;
-}
+.lx-resume-experience ul li {
+  margin-bottom: 0.9375rem;
 
-@media(max-width:768px){
-  .lx-resume-experience ul li h4 ins{
-    float:none;
-    clear:both;
-    font-size:0.75rem;
+  &:last-child {
+    margin-bottom: 0px;
+  }
+
+  & ins {
+    float: right;
+    font-weight: 300;
+    color: red;
+  }
+
+  & p {
+    margin-left: 1.25rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    word-spacing: 0.3125rem;
+  }
+
+  & span {
+    margin-left: 1.25rem;
+    color: black;
+    font-family: 'Muli';
+  }
+
+  & h4 {
+    position: relative;
+    margin-bottom: 0.625rem;
+    padding-left: 1.25rem;
+    font-family: 'Muli';
+    font-size: 1rem;
+    text-transform: uppercase;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0.1875rem;
+      left: 0px;
+      width: 0.625rem;
+      height: 0.625rem;
+      background: red;
+      border-radius: 50%;
+    }
   }
 }
-.lx-resume-experience ul li span{
-  color:#999999;
-  font-family:'Muli';
-}
-.lx-resume-experience ul li p{
-  font-size:1rem;
-  line-height:1.5rem;
-  word-spacing:0.3125rem;
+
+@media(max-width: 768px) {
+  .lx-resume-experience ul li h4 ins {
+    float: none;
+    clear: both;
+    font-size: 0.75rem;
+  }
 }

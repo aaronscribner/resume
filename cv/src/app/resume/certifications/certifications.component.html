@@ -1,7 +1,6 @@
 <div class="lx-resume-bloc">
   <h3>Certifications</h3>
   <div class="lx-resume-certifications">
-    <img src="../../../assets/images/psm.png">
-    <img src="../../../assets/images/msft-cert.jpg">
+    <img *ngFor="let certification of certifications" src="{{certification.imageUrl}}">
   </div>
 </div>

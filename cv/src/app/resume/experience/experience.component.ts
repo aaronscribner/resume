@@ -1,4 +1,5 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component, Input, ViewEncapsulation } from '@angular/core';
+import { Experience } from '../../shared/models/resume/experience.model';
 
 @Component({
   selector: 'app-experience',
@@ -6,10 +7,8 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   styleUrls: ['./experience.component.scss'],
   encapsulation: ViewEncapsulation.None
 })
-export class ExperienceComponent implements OnInit {
+export class ExperienceComponent {
+  @Input() experiences: Experience[];
 
   constructor() { }
-
-  ngOnInit() {
-  }
 }

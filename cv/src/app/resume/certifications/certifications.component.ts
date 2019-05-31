@@ -1,4 +1,5 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component, Input, ViewEncapsulation } from '@angular/core';
+import { Certification } from '../../shared/models/resume/certification.model';
 
 @Component({
   selector: 'app-certifications',
@@ -6,10 +7,8 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   styleUrls: ['./certifications.component.scss'],
   encapsulation: ViewEncapsulation.None
 })
-export class CertificationsComponent implements OnInit {
+export class CertificationsComponent {
+  @Input() certifications: Certification[];
 
   constructor() { }
-
-  ngOnInit() {
-  }
 }

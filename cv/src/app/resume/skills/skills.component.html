@@ -1,21 +1,8 @@
 <div class="lx-resume-bloc">
   <h3>Skills</h3>
   <div class="lx-resume-skills">
-    <span>.NET Core</span>
-    <span>Web API</span>
-    <span>Angular 2+</span>
-    <span>Node.js</span>
-    <span>Javascript</span>
-    <span>CSS/HTML</span>
-    <span>Domain-Driven Design</span>
-    <span>Micro-services</span>
-    <span>Git</span>
-    <span>MSSQL</span>
-    <span>Graph DB</span>
-    <span>NoSQL</span>
-    <span>Enterprise Service Bus</span>
-    <span>REST Architecture</span>
-    <span>Enterprise Architecture</span>
-    <span>Agile/Scrum</span>
+    <span *ngFor="let skill of skills">
+      {{skill.description}}
+    </span>
   </div>
 </div>

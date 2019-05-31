@@ -1,35 +1,42 @@
-.lx-resume-img{
-  width:12.5rem;
-  height:12.5rem;
-  margin:auto;
-  border-radius:50%;
-  overflow:hidden;
-  box-shadow:0.0625rem 0.0625rem 0.625rem #BEBEBE;
+.lx-resume-img {
+  width: 12.5rem;
+  height: 12.5rem;
+  margin: auto;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0.0625rem 0.0625rem 0.625rem #BEBEBE;
+
+  & img {
+    width: 100%;
+  }
 }
-.lx-resume-img img{
-  width:100%;
-}
-.lx-resume-name{
-  padding-top:0.625rem;
-  text-align:center;
-}
-.lx-resume-name p{
-  line-height:1rem;
-  color:#858585;
-}
-.lx-resume-name ul{
-  display:table;
-  margin:auto;
-}
-.lx-resume-name ul li{
-  float:left;
-}
-.lx-resume-name ul li a{
-  display:inline-block;
-  padding:0.3125rem;
-  font-size:1.25rem;
-  color:#424242;
-}
-.lx-resume-name ul li a:hover{
-  color:#f03434;
+
+.lx-resume-name {
+  padding-top: 0.625rem;
+  text-align: center;
+
+  & p {
+    line-height: 1rem;
+    color: #858585;
+  }
+
+  & ul {
+    display: table;
+    margin: auto;
+
+    & li {
+      float: left;
+
+      & a {
+        display: inline-block;
+        padding: 0.3125rem;
+        font-size: 1.25rem;
+        color: #424242;
+
+        &::hover {
+          color: #f03434;
+        }
+      }
+    }
+  }
 }

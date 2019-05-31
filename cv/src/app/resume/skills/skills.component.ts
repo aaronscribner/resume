@@ -6,11 +6,8 @@ import { Detail } from '../../shared/models/resume/detail.model';
   templateUrl: './skills.component.html',
   styleUrls: ['./skills.component.scss'],
 })
-export class SkillsComponent implements OnInit {
+export class SkillsComponent {
   @Input() skills: Detail[];
 
   constructor() { }
-
-  ngOnInit() {
-  }
 }

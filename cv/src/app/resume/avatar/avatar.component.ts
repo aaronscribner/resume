@@ -1,15 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Resume } from '../../shared/models/resume/resume.model';
 
 @Component({
   selector: 'app-avatar',
   templateUrl: './avatar.component.html',
   styleUrls: ['./avatar.component.scss']
 })
-export class AvatarComponent implements OnInit {
+export class AvatarComponent  {
+  @Input() resume: Resume;
 
-  constructor() { }
-
-  ngOnInit() {
+  constructor() {
   }
-
 }

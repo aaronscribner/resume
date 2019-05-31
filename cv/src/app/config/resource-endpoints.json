@@ -1,80 +1,12 @@
 {
   "environments": [
-    {
-      "name": "local-mock",
-      "endpoints": [
         {
-          "resource": "Employee",
-          "baseUrl": "http://localhost:4300/api",
-          "url": "companies/B4C50B6F-C075-E911-ABC4-0004FFE629BE/consultants",
-          "versions": [
-            {
-              "verb": "default",
-              "value": "v1"
-            },
-            {
-              "verb": "GET",
-              "value": "v2"
-            }
-          ]
-        },
-        {
-          "resource": "Contact",
-          "baseUrl": "http://localhost:4300/api",
-          "url": "contacts",
-          "versions": [
-            {
-              "verb": "default",
-              "value": "v1"
-            }
-          ]
-        },
-        {
-          "resource": "EmployeeContact",
-          "baseUrl": "http://localhost:4300/api",
-          "url": "employees",
-          "versions": [
-            {
-              "verb": "default",
-              "value": "v1"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "local-dev",
       "endpoints": [
         {
-          "resource": "Employee",
-          "baseUrl": "https://dev-resolver-empapi-as1.azurewebsites.net/api",
-          "url": "companies/B4C50B6F-C075-E911-ABC4-0004FFE629BE/consultants",
-          "versions": [
-            {
-              "verb": "default",
-              "value": "v1"
-            },
-            {
-              "verb": "GET",
-              "value": "v1"
-            }
-          ]
-        },
-        {
-          "resource": "Contact",
-          "baseUrl": "https://dev-resolver-contact-api.azurewebsites.net/api",
-          "url": "contacts",
-          "versions": [
-            {
-              "verb": "default",
-              "value": "v1"
-            }
-          ]
-        },
-        {
-          "resource": "EmployeeContact",
-          "baseUrl": "https://dev-resolver-contact-api.azurewebsites.net/api",
-          "url": "employees",
+          "resource": "Resume",
+          "baseUrl": "./assets/data",
+          "url": "resumes.json",
           "versions": [
             {
               "verb": "default",
@@ -85,34 +17,12 @@
       ]
     },
     {
-      "name": "#{RESOURCE_ENVIRONMENT}#",
+      "name": "production",
       "endpoints": [
         {
-          "resource": "Employee",
-          "baseUrl": "#{COMPANY_API_BASE_URL}#",
-          "url": "companies/B4C50B6F-C075-E911-ABC4-0004FFE629BE/consultants",
-          "versions": [
-            {
-              "verb": "default",
-              "value": "v1"
-            }
-          ]
-        },
-        {
-          "resource": "Contact",
-          "baseUrl": "#{CONTACT_API_BASE_URL}#",
-          "url": "contacts",
-          "versions": [
-            {
-              "verb": "default",
-              "value": "v1"
-            }
-          ]
-        },
-        {
-          "resource": "EmployeeContact",
-          "baseUrl": "#{CONTACT_API_BASE_URL}#",
-          "url": "employees",
+          "resource": "Resume",
+          "baseUrl": "./assets/data",
+          "url": "resumes.json",
           "versions": [
             {
               "verb": "default",

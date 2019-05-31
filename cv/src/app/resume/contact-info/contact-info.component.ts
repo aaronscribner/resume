@@ -1,4 +1,5 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component, Input, OnInit, ViewEncapsulation } from '@angular/core';
+import { ContactInfo } from '../../shared/models/resume/contact-info.model';
 
 @Component({
   selector: 'app-contact-info',
@@ -6,11 +7,8 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   styleUrls: ['./contact-info.component.scss'],
   encapsulation: ViewEncapsulation.None
 })
-export class ContactInfoComponent implements OnInit {
+export class ContactInfoComponent {
+  @Input() contactInfo: ContactInfo;
 
   constructor() { }
-
-  ngOnInit() {
-  }
-
 }
