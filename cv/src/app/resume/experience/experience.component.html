@@ -3,8 +3,9 @@
   <div class="lx-resume-experience">
     <ul>
       <li *ngFor="let experience of experiences">
-        <h4>{{experience.companyName}}</h4>
-        <ins>{{experience.startDate}} - {{experience.endDate}}</ins>
+        <h4>{{experience.companyName}}
+          <ins>{{experience.startDate}} - {{experience.endDate}}</ins>
+        </h4>
         <p>
           {{experience.title}}
         </p>

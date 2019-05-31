@@ -4,8 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    pathMatch: 'full',
-    redirectTo: 'resume'
+    loadChildren: './resume/resume.module#ResumeModule'
   },
   {
     path: 'resume',
