@@ -4,10 +4,19 @@
     <ul>
       <li *ngFor="let experience of experiences">
         <h4>{{experience.companyName}}</h4>
-        <span>{{experience.startDate}} - {{experience.endDate}}</span>
-        <p *ngFor="let duty of experience.duties">
-          - {{duty.description}}.
+        <ins>{{experience.startDate}} - {{experience.endDate}}</ins>
+        <p>
+          {{experience.title}}
         </p>
+        <p *ngFor="let duty of experience.duties">
+          <i></i>
+          {{duty.description}}.
+        </p>
+        <div class="lx-resume-experience-technology">
+          <span *ngFor="let technology of experience.technologies">
+            {{technology.description}}
+          </span>
+        </div>
       </li>
     </ul>
   </div>

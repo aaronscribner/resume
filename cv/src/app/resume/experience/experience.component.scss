@@ -7,8 +7,8 @@
 
   & ins {
     float: right;
-    font-weight: 300;
-    color: red;
+    font-size: 1rem;
+    margin-top:-1.75rem;
   }
 
   & p {
@@ -16,9 +16,17 @@
     font-size: 1rem;
     line-height: 1.5rem;
     word-spacing: 0.3125rem;
+
+    & i {
+      border: solid black;
+      display: inline-block;
+      transform: rotate(-45deg);
+      top:-0.1875rem;
+      -webkit-transform: rotate(-45deg);
+    }
   }
 
-  & span {
+  .lx-resume-experience-dates {
     margin-left: 1.25rem;
     color: black;
     font-family: 'Muli';
@@ -42,6 +50,23 @@
       background: red;
       border-radius: 50%;
     }
+  }
+}
+
+.lx-resume-experience-technology span{
+  display:inline-block;
+  margin:0.3125rem;
+  padding:0.3125rem 0.625rem;
+  font-family:'Muli';
+  font-size:0.8125rem;
+  font-weight:600;
+  background:lightgray;
+  color:black;
+  border-radius:0.25rem;
+
+  &:hover{
+    background:red;
+    color:white;
   }
 }
 

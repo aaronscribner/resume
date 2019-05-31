@@ -1,0 +1,66 @@
+.lx-resume-education ul li {
+  margin-bottom: 0.9375rem;
+
+  &:last-child {
+    margin-bottom: 0px;
+  }
+
+  & ins {
+    float: right;
+    font-weight: 300;
+    color: red;
+  }
+
+  & span {
+    margin-left: 1.25rem;
+  }
+
+  & p {
+    margin-left: 1.25rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    word-spacing: 0.3125rem;
+
+    & i {
+      border: solid black;
+      display: inline-block;
+      transform: rotate(-45deg);
+      top: -0.1875rem;
+      -webkit-transform: rotate(-45deg);
+    }
+  }
+
+  .lx-resume-education-dates {
+    margin-left: 1.25rem;
+    color: darkgray;
+    font-family: 'Muli';
+  }
+
+  & h4 {
+    position: relative;
+    margin-bottom: 0.625rem;
+    padding-left: 1.25rem;
+    font-family: 'Muli';
+    font-size: 1rem;
+    text-transform: uppercase;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0.1875rem;
+      left: 0px;
+      width: 0.625rem;
+      height: 0.625rem;
+      background: red;
+      border-radius: 50%;
+    }
+  }
+}
+
+@media(max-width: 768px) {
+  .lx-resume-education ul li h4 ins {
+    float: none;
+    clear: both;
+    font-size: 0.75rem;
+  }
+}

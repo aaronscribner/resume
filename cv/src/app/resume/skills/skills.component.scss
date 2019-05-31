@@ -6,10 +6,11 @@
   font-family:'Muli';
   font-size:0.8125rem;
   font-weight:600;
-  background:#242424;
-  color:#FFFFFF;
+  background:black;
+  color:white;
   border-radius:0.25rem;
-}
-.lx-resume-skills span:hover{
-  background:red;
+
+  &:hover{
+    background:red;
+  }
 }

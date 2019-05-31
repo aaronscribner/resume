@@ -1,4 +1,5 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component, Input, ViewEncapsulation } from '@angular/core';
+import { Education } from '../../shared/models/resume/education.model';
 
 @Component({
   selector: 'app-education',
@@ -6,10 +7,8 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   styleUrls: ['./education.component.scss'],
   encapsulation: ViewEncapsulation.None
 })
-export class EducationComponent implements OnInit {
+export class EducationComponent {
+  @Input() education: Education[];
 
   constructor() { }
-
-  ngOnInit() {
-  }
 }

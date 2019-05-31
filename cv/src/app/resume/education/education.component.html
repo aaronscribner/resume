@@ -1,33 +1,15 @@
 <div class="lx-resume-bloc">
   <h3>Education</h3>
-  <div class="lx-resume-experience">
+  <div class="lx-resume-education">
     <ul>
-      <li>
-        <h4>Art & Photo Editing
-          <ins>Cambridge Universirty</ins>
+      <li *ngFor="let schooling of education">
+        <h4>{{schooling.degree}}
+          <ins>{{schooling.schoolName}}</ins>
         </h4>
-        <span>Spetember 2009 - June 2012</span>
-        <p>Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies
-          purus, sed posuere libero dui id orci. Etiam sit amet lectus quis est congue mollis. Phasellus congue
-          lacus eget neque. </p>
-      </li>
-      <li>
-        <h4>Web Design Techniques
-          <ins>ISTA Ben Msik Training Center</ins>
-        </h4>
-        <span>September 2007 - June 2009</span>
-        <p>Purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate
-          arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue
-          lacus eget neque. Phasellus ornare.</p>
-      </li>
-      <li>
-        <h4>Baccalaureate: Experimental Sciences
-          <ins>Mly Ismail High School</ins>
-        </h4>
-        <span>September 2003 - June 2006</span>
-        <p>Sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu,
-          vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus
-          eget neque.</p>
+        <span>{{schooling.startDate}} - {{schooling.endDate}}</span>
+        <p>
+          {{schooling.description}}
+        </p>
       </li>
     </ul>
   </div>

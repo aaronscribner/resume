@@ -1,284 +1,543 @@
-[{
-  "id": 1,
-  "name": "Aaron Scribner",
-  "title": "Code Artist",
-  "about": "I thoroughly enjoy solving business problems through technology and strive in collaborative teams. I prefer to work in smaller Scrum teams in which the entire team is adept in all facets of the development lifecyle. I place an emphasis on creating clean and maintainable code to ensure the team is able to move efficiently as the needs of the business change.",
-  "facebookUrl": "https://www.facebook.com/meesterover",
-  "twitterUrl": "https://twitter.com/scribner_aaron",
-  "linkedInUrl": "https://www.linkedin.com/in/aaron-s-96b438a4",
-  "contactInfo": {
-    "email": "recruiting@meesterover.com",
-    "phone": "817.756.6214",
-    "location": "Castle Rock, CO USA"
-  },
-  "experience": [
-    {
-      "companyName": "IFS Companies",
-      "title": "Angular Engineer",
-      "startDate": "Feb 2019",
-      "endDate": "May 2019",
-      "duties": [
-        {
-          "description": "Responsible for Angular architecture"
-        },
-        {
-          "description": "Set the technical direction for feature implementation"
-        },
-        {
-          "description": "Mentored junior developers to follow best practices"
-        },
-        {
-          "description": "Created Angular framework and patterns to increase the team efficiency"
-        },
-        {
-          "description": "Led team to successful milestone for application demo at annual company conference"
-        },
-        {
-          "description": "Collaborated with the UX designer to determine efficient paths forward when designing the UI"
-        },
-        {
-          "description": "Collaborated with the other data and REST architect for designing application features"
-        },
-        {
-          "description": "Create Nuget packages in .NET Core to support API development"
-        },
-        {
-          "description": "Participated in Domain-Driven Design discussions"
-        }
-      ],
-      "technologies": [
-        {
-          "description": "Angular 7"
-        },
-        {
-          "description": "Jasmine"
-        },
-        {
-          "description": ".NET Core"
-        },
-        {
-          "description": "Web API"
-        },
-        {
-          "description": "Graph DB"
-        },
-        {
-          "description": "Document SQL"
-        },
-        {
-          "description": "MSSQL"
-        },
-        {
-          "description": "Azure Cloud"
-        }
-      ]
+[
+  {
+    "id": 1,
+    "name": "Aaron Scribner",
+    "title": "Code Artist",
+    "about": "I thoroughly enjoy solving business problems through technology and strive in collaborative teams. I prefer to work in smaller Scrum teams in which the entire team is adept in all facets of the development lifecyle. I place an emphasis on creating clean and maintainable code to ensure the team is able to move efficiently as the needs of the business change.",
+    "facebookUrl": "https://www.facebook.com/meesterover",
+    "twitterUrl": "https://twitter.com/scribner_aaron",
+    "linkedInUrl": "https://www.linkedin.com/in/aaron-s-96b438a4",
+    "contactInfo": {
+      "email": "recruiting@meesterover.com",
+      "phone": "817.756.6214",
+      "location": "Castle Rock, CO USA"
     },
-    {
-      "companyName": "Charles Schwab",
-      "title": "Senior Engineer Consultant",
-      "startDate": "Oct 2018",
-      "endDate": "Feb 2019",
-      "duties": [
-        {
-          "description": "Communicated closely with the product owner to match the technical direction with that of the business"
-        },
-        {
-          "description": "Was the technical lead for the the Angular and .NET Core solutions"
-        },
-        {
-          "description": "Mentored other developers"
-        },
-        {
-          "description": "Designed and implemented complex, multi-level data-grid display for stock trade information"
-        },
-        {
-          "description": "Created the technical acceptance criteria for stories"
-        }
-      ],
-      "technologies": [
-        {
-          "description": "Angular 7"
-        },
-        {
-          "description": ".NET Core"
-        },
-        {
-          "description": "Web API"
-        },
-        {
-          "description": "Document DB"
-        },
-        {
-          "description": "NGRX"
-        }
-      ]
-    },
-    {
-      "companyName": "GenLife Limited",
-      "title": "Software Architect",
-      "startDate": "Oct 2018",
-      "endDate": "Feb 2019",
-      "duties": [
-        {
-          "description": "Architected and led decisions for developing an AI-based insurance system"
-        },
-        {
-          "description": "Implemented applications with Docker support for deployment to AWS"
-        },
-        {
-          "description": "Worked closely with DevOps for consistent patterns with respect to our solution architecture for continuous integration and deployment"
-        },
-        {
-          "description": "Implemented the full vertical stack to meet business needs"
-        },
-        {
-          "description": "Integrated solutions with AWS cloud services"
-        }
-      ],
-      "technologies": [
-        {
-          "description": "Angular 7"
-        },
-        {
-          "description": ".NET Core"
-        },
-        {
-          "description": "Web API"
-        },
-        {
-          "description": "Document DB"
-        },
-        {
-          "description": "Postgres SQL"
-        },
-        {
-          "description": "Mobx"
-        },
-        {
-          "description": "Amazon Web Services"
-        }
-      ]
-    },
-    {
-      "companyName": "Caliber Home Loans",
-      "title": "Software Engineer Consultant",
-      "startDate": "Jan 2017",
-      "endDate": "Aug 2017",
-      "duties": [
-        {
-          "description": "Key team member in major modernization effort across the entire architecture for the platform with a focus on the client-side technology"
-        },
-        {
-          "description": "Responsible for implementing complex business logic in the front-end that is not handled server-side"
-        },
-        {
-          "description": "Redesigned the UX per the business requirements with an immutable API layer"
-        },
-        {
-          "description": "Wrote unit tests to cover the expected functionality and also speed up the development process"
-        },
-        {
-          "description": "Integrated with a Mock API for UI development stability"
-        },
-        {
-          "description": "Create the HTML/CSS per provided mockups"
-        },
-        {
-          "description": "Participated in approving pull requests"
-        }
-      ],
-      "technologies": [
-        {
-          "description": "Angular 2"
-        },
-        {
-          "description": ".NET Core"
-        },
-        {
-          "description": "Web API"
-        },
-        {
-          "description": "NGRX"
-        }
-      ]
-    }
-  ],
-  "certifications": [
-    {
-      "description": "Professional Scrum Master",
-      "imageUrl": "./assets/images/psm.png"
-    },
-    {
-      "description": "Microsoft Technology Professiona - ASP.NET MVC",
-      "imageUrl": "./assets/images/msft-cert.jpg"
-    }
-  ],
-  "skills": [
-    {
-      "description": ".NET Core"
-    },
-    {
-      "description": "Web API"
-    },
-    {
-      "description": "Angular 2+"
-    },
-    {
-      "description": "Node.js"
-    },
-    {
-      "description": "MongoDB"
-    },
-    {
-      "description": "Javascript"
-    },
-    {
-      "description": "HTML/CSS"
-    },
-    {
-      "description": "Domain-Driven Design"
-    },
-    {
-      "description": "Micro-services"
-    },
-    {
-      "description": "Git"
-    },
-    {
-      "description": "TFS/AzureDevOps"
-    },
-    {
-      "description": "Agile/Scrum"
-    },
-    {
-      "description": "MSSQL"
-    },
-    {
-      "description": "Postgres SQL"
-    },
-    {
-      "description": "MongoDB"
-    },
-    {
-      "description": "Graph DB"
-    },
-    {
-      "description": "Dyanmo DB"
-    },
-    {
-      "description": "Enterprise Service Bus"
-    },
-    {
-      "description": "REST Architecture"
-    },
-    {
-      "description": "Enterprise Architecture"
-    },
-    {
-      "description": "Azure"
-    },
-    {
-      "description": "AWS"
-    }
-  ]
-}]
+    "experience": [
+      {
+        "companyName": "IFS Companies",
+        "title": "Angular Engineer Consultant",
+        "startDate": "Feb 2019",
+        "endDate": "May 2019",
+        "duties": [
+          {
+            "description": "Responsible for Angular architecture"
+          },
+          {
+            "description": "Set the technical direction for feature implementation"
+          },
+          {
+            "description": "Mentored junior developers to follow best practices"
+          },
+          {
+            "description": "Created Angular framework and patterns to increase the team efficiency"
+          },
+          {
+            "description": "Led team to successful milestone for application demo at annual company conference"
+          },
+          {
+            "description": "Collaborated with the UX designer to determine efficient paths forward when designing the UI"
+          },
+          {
+            "description": "Collaborated with the other data and REST architect for designing application features"
+          },
+          {
+            "description": "Create Nuget packages in .NET Core to support API development"
+          },
+          {
+            "description": "Participated in Domain-Driven Design discussions"
+          }
+        ],
+        "technologies": [
+          {
+            "description": "Angular 7"
+          },
+          {
+            "description": "Jasmine"
+          },
+          {
+            "description": ".NET Core"
+          },
+          {
+            "description": "Web API"
+          },
+          {
+            "description": "Domain-Driven Design"
+          },
+          {
+            "description": "Graph DB"
+          },
+          {
+            "description": "Document SQL"
+          },
+          {
+            "description": "MSSQL"
+          },
+          {
+            "description": "Azure Cloud"
+          }
+        ]
+      },
+      {
+        "companyName": "Charles Schwab",
+        "title": "Senior Engineer Consultant",
+        "startDate": "Oct 2018",
+        "endDate": "Feb 2019",
+        "duties": [
+          {
+            "description": "Communicated closely with the product owner to match the technical direction with that of the business"
+          },
+          {
+            "description": "Was the technical lead for the the Angular and .NET Core solutions"
+          },
+          {
+            "description": "Mentored other developers"
+          },
+          {
+            "description": "Designed and implemented complex, multi-level data-grid display for stock trade information"
+          },
+          {
+            "description": "Created the technical acceptance criteria for stories"
+          }
+        ],
+        "technologies": [
+          {
+            "description": "Angular 7"
+          },
+          {
+            "description": ".NET Core"
+          },
+          {
+            "description": "Web API"
+          },
+          {
+            "description": "Document DB"
+          },
+          {
+            "description": "NGRX"
+          }
+        ]
+      },
+      {
+        "companyName": "GenLife Limited",
+        "title": "Software Architect",
+        "startDate": "Oct 2018",
+        "endDate": "Feb 2019",
+        "duties": [
+          {
+            "description": "Architected and led decisions for developing an AI-based insurance system"
+          },
+          {
+            "description": "Implemented applications with Docker support for deployment to AWS"
+          },
+          {
+            "description": "Worked closely with DevOps for consistent patterns with respect to our solution architecture for continuous integration and deployment"
+          },
+          {
+            "description": "Implemented the full vertical stack to meet business needs"
+          },
+          {
+            "description": "Integrated solutions with AWS cloud services"
+          }
+        ],
+        "technologies": [
+          {
+            "description": "Angular 7"
+          },
+          {
+            "description": ".NET Core"
+          },
+          {
+            "description": "Web API"
+          },
+          {
+            "description": "Domain-Driven Design"
+          },
+          {
+            "description": "Document DB"
+          },
+          {
+            "description": "Postgres SQL"
+          },
+          {
+            "description": "Mobx"
+          },
+          {
+            "description": "Amazon Web Services"
+          }
+        ]
+      },
+      {
+        "companyName": "Caliber Home Loans",
+        "title": "Software Engineer Consultant",
+        "startDate": "Jan 2017",
+        "endDate": "Aug 2017",
+        "duties": [
+          {
+            "description": "Key team member in major modernization effort across the entire architecture for the platform with a focus on the client-side technology"
+          },
+          {
+            "description": "Responsible for implementing complex business logic in the front-end that is not handled server-side"
+          },
+          {
+            "description": "Redesigned the UX per the business requirements with an immutable API layer"
+          },
+          {
+            "description": "Wrote unit tests to cover the expected functionality and also speed up the development process"
+          },
+          {
+            "description": "Integrated with a Mock API for UI development stability"
+          },
+          {
+            "description": "Create the HTML/CSS per provided mockups"
+          },
+          {
+            "description": "Participated in approving pull requests"
+          }
+        ],
+        "technologies": [
+          {
+            "description": "Angular 2"
+          },
+          {
+            "description": ".NET Core"
+          },
+          {
+            "description": "Web API"
+          },
+          {
+            "description": "NGRX"
+          }
+        ]
+      },
+      {
+        "companyName": "Intermap Technologies",
+        "title": "Software Engineer Consultant",
+        "startDate": "Aug 2016",
+        "endDate": "Jan 2017",
+        "duties": [
+          {
+            "description": "Responsible for enhancement and maintenance of public facing SaaS product"
+          },
+          {
+            "description": "Implemented new functionality for existing Angular application"
+          },
+          {
+            "description": "Improved ALM practices and continuous build/deploy operations"
+          },
+          {
+            "description": "Improved overall code quality through implementation of automated compile-time tools"
+          },
+          {
+            "description": "Participated in design, review and architecture discussion relating to new functionality"
+          },
+          {
+            "description": "Performed code reviews"
+          },
+          {
+            "description": "Created plan to move the client application to Angular 2"
+          }
+        ],
+        "technologies": [
+          {
+            "description": "AngularJS"
+          },
+          {
+            "description": "Javascript"
+          },
+          {
+            "description": ".NET"
+          },
+          {
+            "description": "Web API"
+          },
+          {
+            "description": "Unity Framework"
+          },
+          {
+            "description": "Entity Framework"
+          },
+          {
+            "description": "Azure Service Bus"
+          }
+        ]
+      },
+      {
+        "companyName": "Neudesic Consulting",
+        "title": "Senior Consultant III, Custom Application Development",
+        "startDate": "Feb 2015",
+        "endDate": "Jul 2016",
+        "duties": [
+          {
+            "description": "•Created system to integrate with existing job application platform to provide pre-screened candidates to employers"
+          },
+          {
+            "description": "Given role as technical lead of project one month after joining the project"
+          },
+          {
+            "description": "Handled business communication with product owners and drove decisions on which technology to use in order to maximize ROI"
+          },
+          {
+            "description": "Improved overall code quality through implementation of automated compile-time tools"
+          },
+          {
+            "description": "Led the technical design to meet the requirements and deadline"
+          },
+          {
+            "description": "Led the Information Security project to fix cross-site scripting, cross-site request forgery, SSL and encryption issues"
+          },
+          {
+            "description": "Designed and retrofitted a password encryption system into existing legacy products"
+          },
+          {
+            "description": "Designed and implemented new password reset functionality to work in conjunction with the password encryption"
+          },
+          {
+            "description": "Designed and implemented a user impersonation system to allow internal employees to authenticate as their customers."
+          },
+          {
+            "description": "Implemented site-wide tokenization of form data to enhance security measures."
+          },
+          {
+            "description": "Developed web site for a start-up company to meet their business model for concierge car shopping"
+          },
+          {
+            "description": "Utilized Angular JS and TypeScript for front-end development with Jasmine unit testing"
+          },
+          {
+            "description": "Guided decisions on use of Domain Driven Design"
+          },
+          {
+            "description": "Implemented back-end services using Web API (C#) and Entity Framework"
+          }
+        ],
+        "technologies": [
+          {
+            "description": "AngularJS"
+          },
+          {
+            "description": "Typescript"
+          },
+          {
+            "description": "ASP.NET MVC5"
+          },
+          {
+            "description": "WCF"
+          },
+          {
+            "description": "Domain-Driven Design"
+          },
+          {
+            "description": "Azure Service Bus"
+          }
+        ]
+      },
+      {
+        "companyName": "Ecommerce Industries",
+        "title": "Technical Lead / Software Architect ",
+        "startDate": "Apr 2013",
+        "endDate": "Feb 2015",
+        "duties": [
+          {
+            "description": "Responsible for application framework design and continuous improvement of patterns to increase team efficiency"
+          },
+          {
+            "description": "Proven team leadership skills by demonstrating a measurable thirty percent increase in team output while maintaining high quality development standards"
+          },
+          {
+            "description": "Enhanced and supported high availability multi-tenant e-commerce platform"
+          },
+          {
+            "description": "Performed duties as Scrum Master to help guide team for following proper practices"
+          },
+          {
+            "description": "Performed constant code reviews and peer programming with team members"
+          },
+          {
+            "description": "Implemented company-wide continuous integration and build platform with automated web site deployments"
+          },
+          {
+            "description": "Implemented Nuget packages for shared libraries across a multitude of applications"
+          },
+          {
+            "description": "Architected and implemented solution for monitoring the health of production web servers"
+          }
+        ],
+        "technologies": [
+          {
+            "description": "ASP.NET MVC5"
+          },
+          {
+            "description": "Ninject"
+          },
+          {
+            "description": "Web API"
+          },
+          {
+            "description": "TeamCity"
+          },
+          {
+            "description": "Scrum"
+          },
+          {
+            "description": "jQuery"
+          }
+        ]
+      },
+      {
+        "companyName": "DynCorp International",
+        "title": "Software Engineer Contractor",
+        "startDate": "Aug 2012",
+        "endDate": "Apr 2013",
+        "duties": [
+          {
+            "description": "Enterprise level application to support asset management for the United States Military"
+          },
+          {
+            "description": "Led development for the consumer, MVC3 application"
+          },
+          {
+            "description": "Architected and implemented the MVC3 solution"
+          },
+          {
+            "description": "Implemented jQuery and javascript functionality alongside the MVC solution"
+          },
+          {
+            "description": "Collaborated with the SOA team for the most efficient way to handle the transmission and reception of data"
+          },
+          {
+            "description": "Mentored team members"
+          },
+          {
+            "description": "Led discussions with Product Owner and business about more efficient ways to design the user interface and increase the usability of the application"
+          },
+          {
+            "description": "Implemented continuous integration and deployment builds using Team Foundation TeamBuild"
+          }
+        ],
+        "technologies": [
+          {
+            "description": "AngularJS"
+          },
+          {
+            "description": "Typescript"
+          },
+          {
+            "description": "ASP.NET MVC5"
+          },
+          {
+            "description": "WCF"
+          },
+          {
+            "description": "Domain-Driven Design"
+          },
+          {
+            "description": "Azure Service Bus"
+          }
+        ]
+      }
+    ],
+    "certifications": [
+      {
+        "description": "Professional Scrum Master",
+        "imageUrl": "./assets/images/psm.png"
+      },
+      {
+        "description": "Microsoft Technology Professional - ASP.NET MVC",
+        "imageUrl": "./assets/images/msft-cert.jpg"
+      }
+    ],
+    "skills": [
+      {
+        "description": ".NET Core"
+      },
+      {
+        "description": "Web API"
+      },
+      {
+        "description": "Angular 2+"
+      },
+      {
+        "description": "Node.js"
+      },
+      {
+        "description": "MongoDB"
+      },
+      {
+        "description": "Javascript"
+      },
+      {
+        "description": "HTML/CSS"
+      },
+      {
+        "description": "Domain-Driven Design"
+      },
+      {
+        "description": "Micro-services"
+      },
+      {
+        "description": "Git"
+      },
+      {
+        "description": "TFS/AzureDevOps"
+      },
+      {
+        "description": "Agile/Scrum"
+      },
+      {
+        "description": "MSSQL"
+      },
+      {
+        "description": "Postgres SQL"
+      },
+      {
+        "description": "MongoDB"
+      },
+      {
+        "description": "Graph DB"
+      },
+      {
+        "description": "Dyanmo DB"
+      },
+      {
+        "description": "Enterprise Service Bus"
+      },
+      {
+        "description": "REST Architecture"
+      },
+      {
+        "description": "Enterprise Architecture"
+      },
+      {
+        "description": "Azure"
+      },
+      {
+        "description": "AWS"
+      }
+    ],
+    "education": [
+      {
+        "schoolName": "University of North Texas",
+        "degree": "Bachelors Computer Science",
+        "description": "Experimental aspects of computer science, as well as a balance between software and hardware issues by providing curricula that serves our communities locally and globally.",
+        "gpa": 3.4,
+        "startDate": "January 2001",
+        "endDate": "June 2004"
+      },
+      {
+        "schoolName": "University of North Texas",
+        "degree": "Germanic Studies",
+        "description": "The Division of International Affairs is guide and champion for internationalization at the University of North Texas. It is the division's mission is to support the university’s global endeavors and international initiatives. ",
+        "gpa": 3.7,
+        "startDate": "January 2001",
+        "endDate": "May 2004"
+      },
+      {
+        "schoolName": "Technische Universität Ilmenau",
+        "degree": "Informatik",
+        "description": "Focus on theoretical computer sciences, with an emphasis on data algorithms and neural networks.",
+        "startDate": "June 2004",
+        "endDate": "Feb 2006"
+      }
+    ]
+  }
+]
