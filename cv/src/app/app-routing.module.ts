@@ -18,17 +18,9 @@ const routes: Routes = [
     path: 'about',
     loadChildren: './about/about.module#AboutModule'
   },
-  {
-    path: 'references',
-    loadChildren: './references/references.module#ReferencesModule'
-  },
-  {
-    path: 'contact',
-    loadChildren: './contact/contact.module#ContactModule'
-  },
-  {
-    path: 'downloads',
-    loadChildren: './downloads/downloads.module#DownloadsModule'
-  },
+  // {
+  //   path: 'references',
+  //   loadChildren: './references/references.module#ReferencesModule'
+  // },
 ];
 export const AppRoutingModule: ModuleWithProviders = RouterModule.forRoot(routes, { useHash: true, scrollPositionRestoration: 'enabled' });
