@@ -1,1 +1,4 @@
 .idea
+dist
+node_modules/webdriver-js-extender
+node_modules
