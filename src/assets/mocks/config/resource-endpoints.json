@@ -1,0 +1,93 @@
+{
+  "environments": [
+    {
+      "name": "local-mock",
+      "endpoints": [
+        {
+          "resource": "Employee",
+          "baseUrl": "http://localhost:4300/api",
+          "url": "employees",
+          "versions": [
+            {
+              "verb": "default",
+              "value": "v1"
+            },
+            {
+              "verb": "get",
+              "value": "v2"
+            }
+          ]
+        },
+        {
+          "resource": "Contact",
+          "baseUrl": "http://localhost:4300",
+          "url": "contacts",
+          "versions": [
+            {
+              "verb": "default",
+              "value": "v1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "local-dev",
+      "endpoints": [
+        {
+          "resource": "Employee",
+          "baseUrl": "http://localhost:4300",
+          "url": "consultants",
+          "versions": [
+            {
+              "verb": "default",
+              "value": "v1"
+            },
+            {
+              "verb": "get",
+              "value": "v2"
+            }
+          ]
+        },
+        {
+          "resource": "Contact",
+          "baseUrl": "http://localhost:4300",
+          "url": "contacts",
+          "versions": [
+            {
+              "verb": "default",
+              "value": "v1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "production",
+      "endpoints": [
+        {
+          "resource": "Employee",
+          "baseUrl": "http://localhost:4300",
+          "url": "consultants",
+          "versions": [
+            {
+              "verb": "default",
+              "value": "v1"
+            }
+          ]
+        },
+        {
+          "resource": "Contact",
+          "baseUrl": "http://localhost:4300",
+          "url": "contacts",
+          "versions": [
+            {
+              "verb": "default",
+              "value": "v1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

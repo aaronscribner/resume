@@ -1,12 +1,30 @@
+import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';
 import { TestBed } from '@angular/core/testing';
-
+import { ResourceUrlService } from '../../services/resource-url-service/resource-url.service';
 import { ResumeService } from './resume.service';
 
 describe('ResumeService', () => {
-  beforeEach(() => TestBed.configureTestingModule({}));
+  let httpMock: HttpTestingController;
+  let service: ResumeService;
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      providers: [
+        ResumeService,
+        ResourceUrlService
+      ],
+      imports: [
+        HttpClientTestingModule
+      ]
+    });
+    service = TestBed.get(ResumeService);
+    httpMock = TestBed.get(HttpTestingController);
+  });
 
-  it('should be created', () => {
-    const service: ResumeService = TestBed.get(ResumeService);
+  afterEach(() => {
+    httpMock.verify();
+  });
+
+  it('should be caseInformation', () => {
     expect(service).toBeTruthy();
   });
 });

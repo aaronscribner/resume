@@ -2,10 +2,10 @@ import { environment } from '../../../../environments/environment';
 import { HttpVerb } from '../../../config/enums/http-verbs.enum';
 import { ResourceConfig } from '../../../config/models/resource-config.model';
 import { ResourceUrlService } from './resource-url.service';
-import { ApiVersions } from '../../../enums/api-versions';
 import { TestBed } from '@angular/core/testing';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
+import { ApiVersions } from '../../../config/enums/api-versions';
 
 describe('ResourceUrlService', () => {
   const endpointConfig: ResourceConfig = require('../../../../assets/mocks/config/resource-endpoints.json');

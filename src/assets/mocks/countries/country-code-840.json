@@ -1,0 +1,413 @@
+{
+  "countryCode": 840,
+  "countryName": "United States of America",
+  "regionCode": 19,
+  "subRegionCode": 21,
+  "alpha2": "US",
+  "alpha3": "USA",
+  "region": "Americas",
+  "subRegion": "Northern America",
+  "intermediateRegion": "",
+  "intermediateRegionCode": 0,
+  "subdivision": [
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-AK",
+      "alpha2": "AK",
+      "subdivisionName": "Alaska",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-AL",
+      "alpha2": "AL",
+      "subdivisionName": "Alabama",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-AR",
+      "alpha2": "AR",
+      "subdivisionName": "Arkansas",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-AS",
+      "alpha2": "AS",
+      "subdivisionName": "American Samoa",
+      "level": "outlying area"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-AZ",
+      "alpha2": "AZ",
+      "subdivisionName": "Arizona",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-CA",
+      "alpha2": "CA",
+      "subdivisionName": "California",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-CO",
+      "alpha2": "CO",
+      "subdivisionName": "Colorado",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-CT",
+      "alpha2": "CT",
+      "subdivisionName": "Connecticut",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-DC",
+      "alpha2": "DC",
+      "subdivisionName": "Washington, D.C.",
+      "level": "district"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-DE",
+      "alpha2": "DE",
+      "subdivisionName": "Delaware",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-FL",
+      "alpha2": "FL",
+      "subdivisionName": "Florida",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-GA",
+      "alpha2": "GA",
+      "subdivisionName": "Georgia",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-GU",
+      "alpha2": "GU",
+      "subdivisionName": "Guam",
+      "level": "outlying area"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-HI",
+      "alpha2": "HI",
+      "subdivisionName": "Hawaii",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-IA",
+      "alpha2": "IA",
+      "subdivisionName": "Iowa",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-ID",
+      "alpha2": "ID",
+      "subdivisionName": "Idaho",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-IL",
+      "alpha2": "IL",
+      "subdivisionName": "Illinois",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-IN",
+      "alpha2": "IN",
+      "subdivisionName": "Indiana",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-KS",
+      "alpha2": "KS",
+      "subdivisionName": "Kansas",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-KY",
+      "alpha2": "KY",
+      "subdivisionName": "Kentucky",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-LA",
+      "alpha2": "LA",
+      "subdivisionName": "Louisiana",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-MA",
+      "alpha2": "MA",
+      "subdivisionName": "Massachusetts",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-MD",
+      "alpha2": "MD",
+      "subdivisionName": "Maryland",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-ME",
+      "alpha2": "ME",
+      "subdivisionName": "Maine",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-MI",
+      "alpha2": "MI",
+      "subdivisionName": "Michigan",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-MN",
+      "alpha2": "MN",
+      "subdivisionName": "Minnesota",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-MO",
+      "alpha2": "MO",
+      "subdivisionName": "Missouri",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-MP",
+      "alpha2": "MP",
+      "subdivisionName": "Northern Mariana Islands",
+      "level": "outlying area"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-MS",
+      "alpha2": "MS",
+      "subdivisionName": "Mississippi",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-MT",
+      "alpha2": "MT",
+      "subdivisionName": "Montana",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-NC",
+      "alpha2": "NC",
+      "subdivisionName": "North Carolina",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-ND",
+      "alpha2": "ND",
+      "subdivisionName": "North Dakota",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-NE",
+      "alpha2": "NE",
+      "subdivisionName": "Nebraska",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-NH",
+      "alpha2": "NH",
+      "subdivisionName": "New Hampshire",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-NJ",
+      "alpha2": "NJ",
+      "subdivisionName": "New Jersey",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-NM",
+      "alpha2": "NM",
+      "subdivisionName": "New Mexico",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-NV",
+      "alpha2": "NV",
+      "subdivisionName": "Nevada",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-NY",
+      "alpha2": "NY",
+      "subdivisionName": "New York",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-OH",
+      "alpha2": "OH",
+      "subdivisionName": "Ohio",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-OK",
+      "alpha2": "OK",
+      "subdivisionName": "Oklahoma",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-OR",
+      "alpha2": "OR",
+      "subdivisionName": "Oregon",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-PA",
+      "alpha2": "PA",
+      "subdivisionName": "Pennsylvania",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-PR",
+      "alpha2": "PR",
+      "subdivisionName": "Puerto Rico",
+      "level": "outlying area"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-RI",
+      "alpha2": "RI",
+      "subdivisionName": "Rhode Island",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-SC",
+      "alpha2": "SC",
+      "subdivisionName": "South Carolina",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-SD",
+      "alpha2": "SD",
+      "subdivisionName": "South Dakota",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-TN",
+      "alpha2": "TN",
+      "subdivisionName": "Tennessee",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-TX",
+      "alpha2": "TX",
+      "subdivisionName": "Texas",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-UM",
+      "alpha2": "UM",
+      "subdivisionName": "United States Minor Outlying Islands",
+      "level": "outlying area"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-UT",
+      "alpha2": "UT",
+      "subdivisionName": "Utah",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-VA",
+      "alpha2": "VA",
+      "subdivisionName": "Virginia",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-VI",
+      "alpha2": "VI",
+      "subdivisionName": "Virgin Islands",
+      "level": "outlying area"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-VT",
+      "alpha2": "VT",
+      "subdivisionName": "Vermont",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-WA",
+      "alpha2": "WA",
+      "subdivisionName": "Washington",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-WI",
+      "alpha2": "WI",
+      "subdivisionName": "Wisconsin",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-WV",
+      "alpha2": "WV",
+      "subdivisionName": "West Virginia",
+      "level": "state"
+    },
+    {
+      "countryCode": 840,
+      "subdivisionCode": "US-WY",
+      "alpha2": "WY",
+      "subdivisionName": "Wyoming",
+      "level": "state"
+    }
+  ]
+}
