@@ -13,7 +13,7 @@ phases:
         commands:
             - echo Installing source NPM dependencies...
             - npm install
-            - npm install -g @angular/cli@7.3.9
+            - npm install -g @angular/cli
     build:
         commands:
         # Builds Angular application. You can also build using custom environment here like mock or staging
