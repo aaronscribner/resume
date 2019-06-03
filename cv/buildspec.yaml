@@ -2,7 +2,7 @@ version: 0.2
 
 env:
     variables:
-        S3_BUCKET: "code.aaronscribner.me"
+        S3_BUCKET: "aaronscribner.me"
         APP_NAME: "<APP_NAME_HERE>"
         BUILD_ENV : "prod"
 
